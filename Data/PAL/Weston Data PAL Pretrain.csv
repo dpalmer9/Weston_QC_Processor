@@ -1,0 +1,1907 @@
+ Animal ID, Site, Mouse strain, Genotype, Gender, Age (months), Schedule name, Schedule run date,Day, Week
+ lt367a429, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt367a429, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt367a429, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt369a431, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt369a431, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt369a431, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt371a433, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt371a433, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt371a433, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt373a435, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt373a435, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt373a435, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt374a436, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt374a436, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt374a436, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt375a437, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt375a437, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt375a437, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt376a438, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt376a438, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt376a438, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt377a439, UWO,APPPS1, t, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lt377a439, UWO,APPPS1, t, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lt377a439, UWO,APPPS1, t, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160205,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160209,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160207,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160208,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Initial Touch Training v3,20160204,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Must Initiate Training v3,20160207,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Must Touch Training v3,20160205,1,1
+ lt367a429, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt367a429, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lt368a430, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lt369a431, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt369a431, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lt370a432, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lt371a433, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt371a433, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt373a435, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt373a435, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt374a436, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt374a436, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt375a437, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt375a437, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt376a438, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt376a438, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lt377a439, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lt377a439, UWO,APPPS1, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160227,1,3
+ lw353a415, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160228,1,3
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw354a416, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw355a417, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw356a418, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw357a419, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw358a420, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,1
+ lw359a421, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw360a422, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw361a423, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw362a424, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160227,1,3
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160227,1,3
+ lw363a425, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160228,1,3
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160227,1,3
+ lw364a426, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160228,1,3
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw365a427, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160208,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160209,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160210,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160211,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160215,1,1
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160216,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160218,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160220,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160221,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160222,1,2
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160224,1,3
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160225,1,3
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160227,1,3
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160228,1,3
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160229,1,3
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160302,1,4
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160303,1,4
+ lw366a428, UWO,APPPS1, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20160306,1,4
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:17:11 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 12:57:28 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Must Touch Training v3,9/08/2015 1:04:17 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 12:11:36 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 12:22:10 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 1:17:59 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 1:01:09 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 12:46:11 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 12:35:45 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 12:34:44 PM,1,1
+gt160a361, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 1:17:55 PM,1,1
+gt161a362, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gt161a362, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt161a362, UOG,APPPS1,t,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gt161a362, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,09/07/2015 12:42:45,1,1
+gt161a362, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,09/09/2015 12:43:39,1,1
+gt161a362, UOG,APPPS1,t,F,4,Mouse PAL Must Touch Training v3,09/08/2015 12:54:49,1,1
+gt161a362, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,09/11/2015 13:03:46,1,1
+gt161a362, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,09/10/2015 13:25:33,1,1
+gt161a363, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gt161a363, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt161a363, UOG,APPPS1,t,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gt161a363, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,09/07/2015 12:42:47,1,1
+gt161a363, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,09/09/2015 12:43:42,1,1
+gt161a363, UOG,APPPS1,t,F,4,Mouse PAL Must Touch Training v3,09/08/2015 12:54:51,1,1
+gt161a363, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,09/11/2015 13:03:48,1,1
+gt161a363, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,09/10/2015 13:25:35,1,1
+gt80x171, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt80x171, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt80x171, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt80x172, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt80x172, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt80x172, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt80x173, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt80x173, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt80x173, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150127,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150128,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150130,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150202,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150203,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150204,1,1
+gt80x174, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150205,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150127,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150128,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150129,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150130,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150202,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150204,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150205,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150206,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150209,1,1
+gt81x175, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150203,1,1
+gt81x176, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt81x176, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt81x176, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt81x177, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt81x177, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt81x177, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt81x178, UOG,3XTG,t,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gt81x178, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt81x178, UOG,3XTG,t,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gt82x179, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Initial Touch Training v3,1/26/2015 12:39:19,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Must Initiate Training v3,1/28/2015 11:37:17,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Must Touch Training v3,1/27/2015 12:56:57,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/24/2015 11:42:40,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/23/2015 11:39:57,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/20/2015 11:06:48,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/19/2015 11:21:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/18/2015 11:33:08,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/17/2015 11:40:21,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/16/2015 11:36:19,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/13/2015 14:19:36,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 13:52:46,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:02:47,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:04,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:01,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:08,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:10,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x180, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Initial Touch Training v3,1/26/2015 12:39:20,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Must Initiate Training v3,1/28/2015 11:37:23,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Must Touch Training v3,1/27/2015 12:56:57,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:10,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x181, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Initial Touch Training v3,1/26/2015 12:39:20,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Must Initiate Training v3,1/28/2015 11:41:07,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Must Touch Training v3,1/27/2015 12:56:57,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:02:48,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:05,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:02,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:09,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:35,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:11,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x182, UOG,3XTG,t,F,4, Mouse PAL Must Initiate Training v3,20150129,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Initial Touch Training v3,1/26/2015 13:20:09,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Must Initiate Training v3,1/29/2015 11:56:10,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Must Touch Training v3,1/28/2015 11:37:30,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:05,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:02,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:10,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:35,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:11,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:11,1,1
+gw100f200, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw100f200, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:13:23,1,1
+gw100f200, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:06:09,1,1
+gw100f200, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:38:32,1,1
+gw100f200, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:14:01,1,1
+gw100f200, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:11:06,1,1
+gw100f201, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw100f201, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw100f201, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw100f202, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw100f202, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw100f202, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw100f203, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw100f203, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw101f204, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw101f204, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw101f205, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw101f205, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw101f205, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw101f206, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw101f206, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw101f206, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw101f207, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:15:08,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 09:58:16,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:18:08,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 09:23:22,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 09:25:02,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:56:50,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:37:53,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:34:42,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:39:15,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:18:19,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:25:28,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:13,1,1
+gw101f207, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:26,1,1
+gw102f208, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw102f208, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 11:01:32,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 10:24:24,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,07/13/2015 11:04:35,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/29/2015 10:21:56,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:48,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:16,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:00,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:34,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:14,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:26,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:22,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:35,1,1
+gw102f208, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:05,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 11:01:34,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 10:24:26,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,07/13/2015 11:04:38,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:51,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:19,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:02,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:36,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:16,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:29,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:24,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:38,1,1
+gw102f209, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:07,1,1
+gw102f210, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw102f210, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 11:01:37,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 10:24:29,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,07/13/2015 11:04:40,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:53,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:21,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:05,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:39,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:18,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:32,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:27,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:40,1,1
+gw102f210, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:10,1,1
+gw102f211, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw102f211, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw102f211, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 11:01:39,1,1
+gw102f211, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 10:24:31,1,1
+gw102f211, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,07/13/2015 11:04:42,1,1
+gw102f211, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:43,1,1
+gw102f211, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:12,1,1
+gw103f212, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw103f212, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw103f212, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 11:18:17 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:30:44 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Must Touch Training v3,7/13/2015 11:06:29 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 11:05:43 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 11:10:50 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 11:07:33 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 11:06:31 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 11:26:16 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:09:55 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:57:32 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:24:12 AM,1,1
+gw103f213, UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:21:55 AM,1,1
+gw103f214, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw103f214, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw103f214, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw103f215, UOG,5FAD,w,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gw103f215, UOG,5FAD,w,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gw103f215, UOG,5FAD,w,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gw152a332, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150901,1,1
+gw152a332, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150902,1,1
+gw152a332, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150904,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 10:02:45 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/07/2015 10:02:37 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/04/2015 9:56:46 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/03/2015 9:51:37 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/02/2015 9:52:45 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/01/2015 10:19:32 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/15/2015 10:16:17 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/14/2015 10:01:26 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/13/2015 10:32:05 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/12/2015 10:07:44 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/09/2015 9:51:41 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/08/2015 10:19:30 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/07/2015 9:45:23 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/06/2015 9:46:02 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/05/2015 9:46:34 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/02/2015 10:22:48 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/01/2015 10:09:14 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/30/2015 9:52:53 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/29/2015 10:05:28 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/28/2015 10:22:49 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/25/2015 10:04:51 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/24/2015 10:13:09 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/23/2015 10:20:04 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/22/2015 10:27:11 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 10:08:11 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 10:15:29 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 10:05:30 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 10:07:42 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 9:55:52 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 10:17:00 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 10:01:17 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 9:51:38 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/09/2015 10:10:59 AM,1,1
+gw152a332, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/08/2015 9:52:55 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gw152a333, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gw152a333, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150901,1,1
+gw152a333, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150903,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 10:02:48 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 9:52:48 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/01/2015 10:19:35 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/04/2015 9:56:48 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/03/2015 9:51:40 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/21/2015 9:23:51 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/16/2015 9:28:39 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/15/2015 10:16:21 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/14/2015 10:01:29 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/13/2015 10:32:08 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/12/2015 10:07:47 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/09/2015 9:51:44 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/08/2015 10:19:32 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/07/2015 9:45:25 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/06/2015 9:46:04 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/05/2015 9:46:37 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/02/2015 10:22:51 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/01/2015 10:09:17 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/30/2015 9:52:55 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/29/2015 10:05:31 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/28/2015 10:22:52 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/25/2015 10:04:54 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/24/2015 10:13:11 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/23/2015 10:20:07 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/22/2015 10:27:14 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 10:08:14 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 10:15:31 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 10:05:33 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 10:07:45 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 9:55:55 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 10:17:03 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 10:01:20 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 9:51:41 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/09/2015 10:11:02 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/08/2015 9:52:57 AM,1,1
+gw152a333, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/07/2015 10:02:39 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gw152a334, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gw152a334, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150901,1,1
+gw152a334, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150903,1,1
+gw152a334, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150904,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 10:02:50 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 9:52:50 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/01/2015 10:19:37 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/04/2015 9:56:51 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/03/2015 9:51:42 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/09/2015 10:11:04 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/08/2015 9:53:00 AM,1,1
+gw152a334, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/07/2015 10:02:41 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gw152a335, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150904,1,1
+gw152a335, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150903,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 10:02:53 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/04/2015 9:56:53 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/03/2015 9:51:45 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/02/2015 9:52:52 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/01/2015 10:19:39 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/24/2015 10:13:16 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/23/2015 10:20:12 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/22/2015 10:27:19 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 10:08:19 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 10:15:36 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 10:05:38 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 10:07:50 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 9:56:00 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 10:17:08 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 10:01:25 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 9:51:45 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/09/2015 10:11:07 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/08/2015 9:53:02 AM,1,1
+gw152a335, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/07/2015 10:02:44 AM,1,1
+gw153a336, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150901,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,08/31/2015 11:43:47,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/02/2015 11:52:16,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,09/01/2015 12:20:13,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/21/2015 12:14:45,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/18/2015 11:37:02,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/17/2015 12:31:10,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/16/2015 11:49:43,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/15/2015 12:14:55,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/14/2015 12:22:48,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/11/2015 11:56:33,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/10/2015 12:19:19,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/09/2015 11:40:45,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/08/2015 11:48:31,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/07/2015 11:37:35,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/04/2015 11:37:41,1,1
+gw153a336, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/03/2015 12:27:21,1,1
+gw153a337, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gw153a337, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,08/31/2015 11:43:50,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/02/2015 11:52:18,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,09/01/2015 12:20:16,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/08/2015 11:48:33,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/07/2015 11:37:38,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/04/2015 11:37:44,1,1
+gw153a337, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/03/2015 12:27:24,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150908,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150910,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150911,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150915,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150918,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150909,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/08/2015 12:03:15,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/21/2015 11:51:27,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/18/2015 12:02:23,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/16/2015 11:15:58,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/15/2015 11:33:27,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/14/2015 12:13:22,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/11/2015 11:53:00,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/10/2015 11:42:24,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 12:19:40,1,1
+gw154a338, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3 - RETRAIN,9/17/2015 11:37:26,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/22/2015 10:48,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/21/2015 9:58,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/19/2015 10:18,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/14/2015 12:54,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/13/2015 12:05,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/12/2015 11:27,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/9/2015 11:33,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/8/2015 11:59,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/7/2015 10:13,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/6/2015 11:01,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/5/2015 10:36,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/2/2015 11:35,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/1/2015 11:45,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/30/2015 11:01,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/29/2015 12:01,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/28/2015 11:43,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/25/2015 11:55,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 12:08,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:14,1,1
+gw154a338, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 12:05,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150908,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150910,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150911,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150914,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150915,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150916,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150918,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150909,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/08/2015 12:03:15,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/18/2015 12:02:24,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/16/2015 11:15:58,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/15/2015 11:33:28,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/14/2015 12:13:23,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/11/2015 11:53:00,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/10/2015 11:42:24,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 12:19:41,1,1
+gw154a339, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3 - RETRAIN,9/17/2015 11:37:27,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 12:08,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:14,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 12:05,1,1
+gw154a339, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/21/2015 11:51,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150908,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150915,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150910,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150914,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/08/2015 12:03:16,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/15/2015 11:33:28,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/14/2015 12:13:23,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/11/2015 11:53:01,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/10/2015 11:42:25,1,1
+gw154a340, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 12:19:41,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/30/2015 10:54,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/29/2015 11:21,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/28/2015 11:20,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/27/2015 11:04,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/26/2015 11:00,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/22/2015 10:48,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/21/2015 9:58,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/19/2015 10:18,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/14/2015 12:54,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/13/2015 12:05,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/12/2015 11:27,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/9/2015 11:33,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/8/2015 11:59,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/7/2015 10:13,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/6/2015 11:01,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/5/2015 10:36,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/2/2015 11:35,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/1/2015 11:45,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/30/2015 11:01,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/29/2015 12:01,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/28/2015 11:43,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/25/2015 11:55,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 12:08,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:14,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 12:05,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/21/2015 11:51,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/18/2015 12:02,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/17/2015 11:37,1,1
+gw154a340, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:15,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150911,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150909,1,1
+gw154a341, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/08/2015 12:03:16,1,1
+gw154a341, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/11/2015 11:53:01,1,1
+gw154a341, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/10/2015 11:42:25,1,1
+gw154a341, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 12:19:42,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/30/2015 10:54,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/29/2015 11:21,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/28/2015 11:20,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/27/2015 11:04,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/26/2015 11:00,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/22/2015 10:48,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/21/2015 9:58,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/19/2015 10:18,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/14/2015 12:54,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/13/2015 12:05,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/12/2015 11:27,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/9/2015 11:33,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/8/2015 11:59,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/7/2015 10:13,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/6/2015 11:01,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/5/2015 10:36,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/2/2015 11:35,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,10/1/2015 11:45,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/30/2015 11:01,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/29/2015 12:01,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/28/2015 11:43,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/25/2015 11:55,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 12:08,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:14,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 12:05,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/21/2015 11:51,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/18/2015 12:02,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/17/2015 11:37,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:15,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 11:33,1,1
+gw154a341, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,9/14/2015 12:13,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150910,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150911,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150914,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150915,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150923,1,1
+gw155a342, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:53:41,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/23/2015 11:59:09,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/22/2015 13:04:09,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/21/2015 12:31:26,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/18/2015 12:53:38,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/17/2015 12:57:02,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/15/2015 12:40:38,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/14/2015 13:07:34,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/11/2015 13:08:35,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/10/2015 13:02:27,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 13:10:40,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/08/2015 13:02:55,1,1
+gw155a342, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3 - RETRAIN,9/16/2015 12:51:06,1,1
+gw155a343, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150918,1,1
+gw155a343, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gw155a343, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150909,1,1
+gw155a343, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150914,1,1
+gw155a343, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150917,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3 - RETRAIN,9/16/2015 12:51:09,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:53:44,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/18/2015 12:53:41,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/17/2015 12:57:04,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/15/2015 12:40:41,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/14/2015 13:07:37,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/11/2015 13:08:37,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/10/2015 13:02:29,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 13:10:43,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/08/2015 13:02:58,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/19/2015 12:06:00,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/19/2015 12:01:28,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/16/2015 09:37:41,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/15/2015 10:07:05,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/14/2015 10:09:44,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/13/2015 12:09:09,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/12/2015 12:30:22,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/09/2015 12:26:24,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/08/2015 12:47:07,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/07/2015 11:55:42,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/06/2015 11:13:05,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/05/2015 11:11:32,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/02/2015 11:59:24,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,10/01/2015 11:36:56,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/30/2015 11:33:47,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/29/2015 11:31:18,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/28/2015 12:21:25,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/25/2015 11:53:10,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/24/2015 12:44:25,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/23/2015 11:59:12,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/22/2015 13:04:11,1,1
+gw155a343, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 12:31:29,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150910,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150911,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150915,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150917,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150918,1,1
+gw155a344, UOG,APPPS1,w,F,4, Mouse PAL Punish Incorrect Training v3,20150921,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:53:46,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 13:10:45,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/08/2015 13:03:00,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 12:31:31,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 12:53:43,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 12:57:07,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 12:51:11,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 12:40:43,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 13:07:39,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 13:08:40,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 13:02:31,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/23/2015 11:59:14,1,1
+gw155a344, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/22/2015 13:04:13,1,1
+gw155a345, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gw155a345, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150911,1,1
+gw155a345, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150910,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:53:48,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,9/11/2015 13:08:42,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/10/2015 13:02:34,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/09/2015 13:10:48,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,9/08/2015 13:03:03,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/21/2015 12:31:33,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/18/2015 12:53:46,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/17/2015 12:57:09,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/16/2015 12:51:14,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/15/2015 12:40:46,1,1
+gw155a345, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 13:07:42,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,09/07/2015 12:42:50,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/10/2015 13:25:38,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/09/2015 12:43:44,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,09/08/2015 12:54:54,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/23/2015 12:34:16,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/22/2015 13:15:42,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/21/2015 13:20:40,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/18/2015 12:50:04,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/17/2015 13:35:56,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/16/2015 12:56:43,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/15/2015 13:17:10,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/14/2015 13:32:25,1,1
+gw156a346, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/11/2015 13:03:51,1,1
+gw156a347, UOG,APPPS1,w,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gw156a347, UOG,APPPS1,w,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gw156a347, UOG,APPPS1,w,F,4, Mouse PAL Must Touch Training v3,20150908,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,09/07/2015 12:42:52,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/09/2015 12:43:46,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,09/08/2015 12:54:56,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/15/2015 13:17:12,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/14/2015 13:32:28,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/11/2015 13:03:53,1,1
+gw156a347, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/10/2015 13:25:41,1,1
+gw158a352, UOG,APPPS1,w,F,4,Mouse PAL Initial Touch Training v3,08/31/2015 11:43:52,1,1
+gw158a352, UOG,APPPS1,w,F,4,Mouse PAL Must Initiate Training v3,09/02/2015 11:52:21,1,1
+gw158a352, UOG,APPPS1,w,F,4,Mouse PAL Must Touch Training v3,09/01/2015 12:20:18,1,1
+gw158a352, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/04/2015 11:37:46,1,1
+gw158a352, UOG,APPPS1,w,F,4,Mouse PAL Punish Incorrect Training v3,09/03/2015 12:27:26,1,1
+gw77x159, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw77x159, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw77x159, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw77x160, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw77x160, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw77x160, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw77x161, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw77x161, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw77x161, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw78x163, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw78x163, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw78x163, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw78x164, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw78x164, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw78x164, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw78x165, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw78x165, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw78x165, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw78x166, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw78x166, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw78x166, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw79x167, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw79x167, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw79x167, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw79x168, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw79x168, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw79x168, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw79x169, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw79x169, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gw79x169, UOG,3XTG,w,F,4, Mouse PAL Must Touch Training v3,20150127,1,1
+gw79x170, UOG,3XTG,w,F,4, Mouse PAL Initial Touch Training v3,20150126,1,1
+gw79x170, UOG,3XTG,w,F,4, Mouse PAL Must Initiate Training v3,20150128,1,1
+gt104f216, UOG, 5FAD,t, F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt104f216, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 11:52:40 AM,1,1
+gt104f216, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 11:04:47 AM,1,1
+gt104f216, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,7/13/2015 11:33:46 AM,1,1
+gt104f216, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/16/2015 10:56:49 AM,1,1
+gt104f216, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/15/2015 10:56:36 AM,1,1
+gt104f217, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt104f217, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt104f217, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt104f218, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt104f218, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt104f219, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt104f219, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt104f219, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt105f220, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt105f220, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt105f221, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt105f221, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt105f221, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:44:25,1,1
+gt105f221, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:24:30,1,1
+gt105f221, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:48:30,1,1
+gt105f221, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:44,1,1
+gt105f221, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:08,1,1
+gt105f222, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt105f222, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:44:27,1,1
+gt105f222, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:24:32,1,1
+gt105f222, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:48:32,1,1
+gt105f222, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:46,1,1
+gt105f222, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:11,1,1
+gt105f223, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt105f223, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt105f223, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:44:30,1,1
+gt105f223, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:24:34,1,1
+gt105f223, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:48:35,1,1
+gt105f223, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:48,1,1
+gt105f223, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:13,1,1
+gt106f224, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt106f224, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt106f224, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt106f224, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 10:38:36,1,1
+gt106f224, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 09:59:39,1,1
+gt106f224, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,07/13/2015 10:17:52,1,1
+gt106f224, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:12,1,1
+gt106f224, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:20,1,1
+gt106f225, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt106f225, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt106f225, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt106f225, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 10:38:38,1,1
+gt106f225, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 09:59:41,1,1
+gt106f225, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,07/13/2015 10:17:54,1,1
+gt106f225, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:14,1,1
+gt106f225, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:23,1,1
+gt106f226, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt106f227, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt106f227, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt106f227, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,07/10/2015 10:38:43,1,1
+gt106f227, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,07/14/2015 09:59:46,1,1
+gt106f227, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,07/13/2015 10:17:59,1,1
+gt106f227, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:19,1,1
+gt106f227, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:28,1,1
+gt107f228, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt107f228, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt107f228, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt107f229, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt107f229, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt107f229, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt107f230, UOG,5FAD,t,F,4, Mouse PAL Initial Touch Training v3,20150710,1,1
+gt107f230, UOG,5FAD,t,F,4, Mouse PAL Must Initiate Training v3,20150714,1,1
+gt107f230, UOG,5FAD,t,F,4, Mouse PAL Must Touch Training v3,20150713,1,1
+gt107f231, UOG,5FAD,t,F,4,Mouse PAL Initial Touch Training v3,7/10/2015 10:50:21 AM,1,1
+gt107f231, UOG,5FAD,t,F,4,Mouse PAL Must Initiate Training v3,7/14/2015 10:04:14 AM,1,1
+gt107f231, UOG,5FAD,t,F,4,Mouse PAL Must Touch Training v3,7/13/2015 10:19:51 AM,1,1
+gt107f231, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/16/2015 9:58:41 AM,1,1
+gt107f231, UOG,5FAD,t,F,4, Mouse PAL Punish Incorrect Training v3,7/15/2015 9:59:03 AM,1,1
+gt157a348, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gt157a349, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 12:04:20,1,1
+gt157a350, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 12:04:22,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gt157a351, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,8/31/2015 12:04:24,1,1
+gt158a352, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150831,1,1
+gt159a354, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:47:29 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:47:32 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:46:20 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:47:34 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:46:23 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:47:36 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 10:46:25 AM,1,1
+gt160a358, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gt160a358, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:17:03 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gt160a359, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:17:06 PM,1,1
+gt160a360, UOG,APPPS1,t,F,4, Mouse PAL Initial Touch Training v3,20150907,1,1
+gt160a360, UOG,APPPS1,t,F,4,Mouse PAL Initial Touch Training v3,9/07/2015 12:17:08 PM,1,1
+gt157a348, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 12:05:20,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gt157a349, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 12:05:22,1,1
+gt157a350, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gt157a350, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 12:05:25,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gt157a351, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/02/2015 12:05:27,1,1
+gt158a352, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150902,1,1
+gt159a354, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/10/2015 10:32:21 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt159a355, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 11:15:36 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt159a356, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 11:15:39 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 11:15:41 AM,1,1
+gt160a358, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt160a358, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 12:57:20 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 12:57:23 PM,1,1
+gt160a360, UOG,APPPS1,t,F,4, Mouse PAL Must Initiate Training v3,20150909,1,1
+gt160a360, UOG,APPPS1,t,F,4,Mouse PAL Must Initiate Training v3,9/09/2015 12:57:26 PM,1,1
+gt157a348, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/04/2015 12:05:11,1,1
+gt157a348, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/03/2015 12:06:29,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,20150907,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,20150908,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/08/2015 12:23:03,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/07/2015 12:18:21,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/10/2015 12:02:34,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/09/2015 12:05:39,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/04/2015 12:05:14,1,1
+gt157a349, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/03/2015 12:06:31,1,1
+gt157a350, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/04/2015 12:05:16,1,1
+gt157a350, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/03/2015 12:06:34,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/09/2015 12:05:44,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/08/2015 12:23:08,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/07/2015 12:18:26,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/04/2015 12:05:19,1,1
+gt157a351, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/03/2015 12:06:36,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 11:21:38 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:15:28 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 11:43:45 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/21/2015 11:14:56 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/18/2015 11:25:18 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/17/2015 11:13:02 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:10:26 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 10:58:35 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/14/2015 11:26:36 AM,1,1
+gt159a354, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/11/2015 10:59:55 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/18/2015 11:25:21 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/17/2015 11:13:05 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:10:29 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 10:58:38 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/14/2015 11:26:38 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/11/2015 10:59:58 AM,1,1
+gt159a355, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/10/2015 10:32:23 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:10:31 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 10:58:40 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/14/2015 11:26:41 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/11/2015 11:00:00 AM,1,1
+gt159a356, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/10/2015 10:32:26 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/24/2015 11:21:45 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/23/2015 11:15:35 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/22/2015 11:43:53 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/21/2015 11:15:03 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/18/2015 11:25:26 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/17/2015 11:13:11 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/16/2015 11:10:34 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 10:58:43 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/14/2015 11:26:43 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/11/2015 11:00:02 AM,1,1
+gt159a357, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/10/2015 10:32:29 AM,1,1
+gt160a358, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/11/2015 12:34:36 PM,1,1
+gt160a358, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/10/2015 1:17:47 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4, Mouse PAL Punish Incorrect Training v3,9/15/2015 12:46:05 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 12:35:39 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 12:34:39 PM,1,1
+gt160a359, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/10/2015 1:17:50 PM,1,1
+gt160a360, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/14/2015 12:35:42 PM,1,1
+gt160a360, UOG,APPPS1,t,F,4,Mouse PAL Punish Incorrect Training v3,9/11/2015 12:34:41 PM,1,1
+ lt264f326, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt264f326, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt264f326, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt264f326, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt264f326, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt265f327, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt265f327, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt265f327, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt265f327, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt265f327, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lt266f328, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lt267f329, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt267f329, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt267f329, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt267f329, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lt267f329, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lt268f330, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lt269f331, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt269f331, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt269f331, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt269f331, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt269f331, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt270f332, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt270f332, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt270f332, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt270f332, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt270f332, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lt271f333, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lt272f334, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt272f334, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt272f334, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt272f334, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt272f334, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt273f335, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt273f335, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt273f335, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt273f335, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt273f335, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt274f336, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt274f336, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt274f336, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt274f336, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt274f336, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt275f337, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt275f337, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt275f337, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt275f337, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt275f337, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt276f338, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt276f338, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt276f338, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt276f338, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt276f338, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt277f339, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt277f339, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt277f339, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt277f339, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt277f339, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lt278f340, UWO, 5FAD, t, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lt278f340, UWO, 5FAD, t, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lt278f340, UWO, 5FAD, t, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lt278f340, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lt278f340, UWO, 5FAD, t, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw248f310, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw249f311, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw250f312, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw250f312, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw250f312, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw250f312, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw250f312, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw251f313, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw251f313, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw251f313, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw251f313, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw251f313, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150922,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150923,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150924,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150926,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150927,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150930,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20151001,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20151002,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151005,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151006,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151007,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151008,1,1
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151009,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151012,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151013,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151015,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151016,1,2
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151017,1,3
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151019,1,3
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151020,1,3
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151021,1,3
+ lw252f314, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151023,1,3
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw253f315, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151005,1,2
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw254f316, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw255f317, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw256f318, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw257f319, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw257f319, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw257f319, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw257f319, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw257f319, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw258f320, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw259f321, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw259f321, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw259f321, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw259f321, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw259f321, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151005,1,2
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151006,1,3
+ lw260f322, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151007,1,3
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151005,1,2
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151006,1,3
+ lw261f323, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151007,1,3
+ lw262f324, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw262f324, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw262f324, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw262f324, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw262f324, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Initial Touch Training v3,20150917,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Must Initiate Training v3,20150921,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Must Touch Training v3,20150918,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150922,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150923,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150924,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150926,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150927,1,1
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20150930,1,2
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151001,1,2
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151002,1,2
+ lw263f325, UWO, 5FAD, w, M,4, Mouse PAL Punish Incorrect Training v3 ,20151004,1,2
+gt104f216,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:56:49 AM,1,1
+gt104f216,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:56:36 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/30/2015 11:59:01 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 11:26:03 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 12:21:22 PM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 12:24:56 PM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 11:39:47 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 12:10:00 PM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 12:40:48 PM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:44:14 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 10:25:33 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:56:52 AM,1,1
+gt104f217,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:56:39 AM,1,1
+gt104f218,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 12:40:50 PM,1,1
+gt104f218,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:44:16 AM,1,1
+gt104f218,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 10:25:35 AM,1,1
+gt104f218,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:56:54 AM,1,1
+gt104f218,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:56:42 AM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 12:25:00 PM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 11:39:52 AM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 12:10:05 PM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 12:40:53 PM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:44:19 AM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 10:25:37 AM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:56:57 AM,1,1
+gt104f219,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:56:44 AM,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 10:23:51,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 10:41:00,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:34:02,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:51:35,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:41,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:06,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 10:23:51,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 10:41:00,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:34:02,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:51:35,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:41,1,1
+gt105f220,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:06,1,1
+gt105f221,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:44,1,1
+gt105f221,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:08,1,1
+gt105f221,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:44,1,1
+gt105f221,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:08,1,1
+gt105f222,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:46,1,1
+gt105f222,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:11,1,1
+gt105f222,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:46,1,1
+gt105f222,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:11,1,1
+gt105f223,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:48,1,1
+gt105f223,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:13,1,1
+gt105f223,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:11:48,1,1
+gt105f223,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:31:13,1,1
+gt106f224,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:12,1,1
+gt106f224,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:20,1,1
+gt106f225,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:14,1,1
+gt106f225,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:23,1,1
+gt106f226,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 09:54:31,1,1
+gt106f226,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 10:24:28,1,1
+gt106f226,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 09:34:07,1,1
+gt106f226,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:17,1,1
+gt106f226,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:25,1,1
+gt106f227,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 09:54:19,1,1
+gt106f227,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:18:28,1,1
+gt107f228,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 10:38:34 AM,1,1
+gt107f228,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:10:16 AM,1,1
+gt107f228,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:35:50 AM,1,1
+gt107f228,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 9:58:34 AM,1,1
+gt107f228,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 9:58:56 AM,1,1
+gt107f229,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 9:58:36 AM,1,1
+gt107f229,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 9:58:58 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 10:01:44 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 10:06:56 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 10:17:07 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 10:38:39 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:10:21 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:35:55 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 9:58:38 AM,1,1
+gt107f230,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 9:59:01 AM,1,1
+gt107f231,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 9:58:41 AM,1,1
+gt107f231,UOG,5FAD,t,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 9:59:03 AM,1,1
+gw100f200,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:14:01,1,1
+gw100f200,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:11:06,1,1
+gw100f201,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:14:02,1,1
+gw100f201,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:11:06,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:50:29,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:34:12,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:42:43,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:45:42,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:06:59,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:41:20,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:14:02,1,1
+gw100f202,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:11:07,1,1
+gw100f203,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:14:03,1,1
+gw100f203,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:11:07,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/31/2015 09:49:50,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/30/2015 09:40:17,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 09:23:15,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 09:24:55,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:56:42,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:37:46,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:30:49,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:34:35,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:39:07,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:18:12,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:25:20,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:06,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:18,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/31/2015 09:49:50,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/30/2015 09:40:17,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 09:23:15,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 09:24:55,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:56:42,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:37:46,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:30:49,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:34:35,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:39:07,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:18:12,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:25:20,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:06,1,1
+gw101f204,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:18,1,1
+gw101f205,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:09,1,1
+gw101f205,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:21,1,1
+gw101f205,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:09,1,1
+gw101f205,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:21,1,1
+gw101f206,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:11,1,1
+gw101f206,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:23,1,1
+gw101f206,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:11,1,1
+gw101f206,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:23,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 09:23:22,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 09:25:02,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:56:50,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:37:53,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:34:42,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:39:15,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:18:19,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:25:28,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:13,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:26,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/29/2015 09:23:22,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 09:25:02,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 09:56:50,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 09:37:53,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 09:34:42,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 09:39:15,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 10:18:19,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 09:25:28,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 09:40:13,1,1
+gw101f207,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:07:26,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/29/2015 10:21:56,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:48,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:16,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:00,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:34,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:14,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:26,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:22,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:35,1,1
+gw102f208,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:05,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:51,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:19,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:02,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:36,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:16,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:29,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:24,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:38,1,1
+gw102f209,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:07,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/28/2015 10:45:53,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/27/2015 11:05:21,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/24/2015 10:50:05,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/22/2015 10:53:39,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/21/2015 11:09:18,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/20/2015 11:24:32,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/17/2015 10:03:27,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:40,1,1
+gw102f210,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:10,1,1
+gw102f211,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/16/2015 10:19:43,1,1
+gw102f211,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,07/15/2015 10:49:12,1,1
+gw103f212,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:09:52 AM,1,1
+gw103f212,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:57:30 AM,1,1
+gw103f212,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:24:10 AM,1,1
+gw103f212,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:21:52 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/28/2015 11:05:43 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/27/2015 11:10:50 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 11:07:33 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 11:06:31 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 11:26:16 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:09:55 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:57:32 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:24:12 AM,1,1
+gw103f213,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:21:55 AM,1,1
+gw103f214,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 11:26:18 AM,1,1
+gw103f214,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:09:58 AM,1,1
+gw103f214,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:57:35 AM,1,1
+gw103f214,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:24:15 AM,1,1
+gw103f214,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:21:57 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/24/2015 11:07:38 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/22/2015 11:06:35 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/21/2015 11:26:20 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/20/2015 11:10:00 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/17/2015 9:57:37 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/16/2015 10:24:17 AM,1,1
+gw103f215,UOG,5FAD,w,F,4,Mouse PAL Punish Incorrect Training v3,7/15/2015 10:22:00 AM,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:24,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:14,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:34,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:43,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:44,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:17,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:36,1,1
+gw77x159,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 12:38,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:30,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:30,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:24,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:14,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:34,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:43,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:44,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:17,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:36,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 12:38,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 12:55,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 12:42,1,1
+gw77x160,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/13/2015 13:01,1,1
+gw77x161,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:30,1,1
+gw77x161,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw77x161,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:30,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:49,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:37,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:40,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:17,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:47,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:23,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:37,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 12:49,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 13:09,1,1
+gw78x163,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 12:50,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:49,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:43,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:40,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:17,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:47,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:23,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:37,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 12:49,1,1
+gw78x164,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 13:09,1,1
+gw78x165,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:49,1,1
+gw78x165,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:43,1,1
+gw78x166,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:49,1,1
+gw78x166,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:43,1,1
+gw79x167,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw79x167,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:42,1,1
+gw79x168,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw79x168,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:42,1,1
+gw79x169,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw79x169,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:42,1,1
+gw79x170,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:45,1,1
+gw79x170,UOG,3XTG,w,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:42,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:27,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:35,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:44,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:22,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:20,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:20,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:31,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:10,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:37,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 13:10,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 12:57,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 12:48,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/13/2015 13:16,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/16/2015 10:25,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/16/2015 10:26,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/17/2015 10:20,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/18/2015 10:15,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/19/2015 10:13,1,1
+gt80x171,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/20/2015 9:58,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:27,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:35,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:44,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:22,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:21,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:20,1,1
+gt80x172,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:31,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:27,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:35,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:44,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:22,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:21,1,1
+gt80x173,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:20,1,1
+gt81x175,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:04,1,1
+gt81x175,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 14:21,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:46,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:40,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:32,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:28,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/4/2015 10:56,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/5/2015 9:43,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/6/2015 9:22,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/9/2015 12:58,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:04,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 14:21,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/13/2015 14:40,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/16/2015 10:15,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/17/2015 10:25,1,1
+gt81x176,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/18/2015 10:23,1,1
+gt81x177,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:46,1,1
+gt81x177,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:40,1,1
+gt81x177,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/2/2015 10:32,1,1
+gt81x177,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/3/2015 10:28,1,1
+gt81x178,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 10:46,1,1
+gt81x178,UOG,3xTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 10:40,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/24/2015 11:42:40,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/23/2015 11:39:57,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/20/2015 11:06:48,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/19/2015 11:21:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/18/2015 11:33:08,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/17/2015 11:40:21,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/16/2015 11:36:19,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/13/2015 14:19:36,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/12/2015 13:52:46,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:02:47,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:04,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:01,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:08,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:34,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:10,1,1
+gt82x179, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:10,1,1
+gt82x180, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/11/2015 14:02:48,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:05,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:02,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:09,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:35,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:10,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:11,1,1
+gt82x181, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/29/2015 11:56:09,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/09/2015 13:42:05,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/06/2015 10:42:02,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/05/2015 10:24:10,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/04/2015 11:48:35,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/03/2015 11:19:11,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,2/02/2015 11:30:35,1,1
+gt82x182, UOG,3XTG,t,F,4,Mouse PAL Punish Incorrect Training v3,1/30/2015 11:55:11,1,1
+ lt79x141, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt79x141, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt79x141, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt80x142, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt80x142, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150119,1,1
+ lt80x142, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt80x142, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt80x142, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt80x142, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150119,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150120,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150125,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150126,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150127,1,2
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150128,1,2
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150130,1,2
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150202,1,2
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150203,1,2
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150205,1,3
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt81x143, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt81x143, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150206,1,1
+ lt81x143, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150209,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150119,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150120,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150125,1,1
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150126,1,2
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150127,1,2
+ lt82x144, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt82x144, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150128,1,1
+ lt82x144, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150130,1,1
+ lt83x145, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt83x145, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt83x145, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,2
+ lt83x145, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150128,1,2
+ lt84x146, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt84x146, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt84x146, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt84x146, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt84x146, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt84x146, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt84x146, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt84x146, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150119,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150120,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt85x147, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt85x147, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt85x147, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150119,1,1
+ lt86x148, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150120,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150128,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150130,1,1
+ lt86x148, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150202,1,2
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150120,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150125,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150126,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150127,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150128,1,2
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt87x149, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150119,1,1
+ lt87x149, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150130,1,1
+ lt87x149, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150202,1,1
+ lt88x150, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt88x150, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt88x150, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt88x150, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt88x150, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt88x150, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt89x151, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt89x151, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt89x151, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,2
+ lt89x151, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150128,1,2
+ lt90x152, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt90x152, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt90x152, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt90x152, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt90x152, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt90x152, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lt90x152, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt90x152, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt91x153, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt91x153, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lt91x153, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt91x153, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lt91x153, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Must Initiate Training v3,20150122,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150118,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150119,1,1
+ lt92x154, UWO, 3XTG, t, M,4, Mouse PAL Must Touch Training v3,20150120,1,1
+ lt92x154, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lt92x154, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lt92x154, UWO, 3XTG, t, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,1
+ lw65x127, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw65x127, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw65x127, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw65x127, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw65x127, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw65x127, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lw66x128, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw66x128, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw66x128, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw66x128, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw66x128, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw66x128, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lw66x128, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lw67x129, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw67x129, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw67x129, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw67x129, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw67x129, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw68x130, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw68x130, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw68x130, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lw68x130, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150118,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150119,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150120,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150122,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150125,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150126,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150127,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150128,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150130,1,2
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150202,1,3
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150203,1,3
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150205,1,3
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150206,1,3
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150209,1,3
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150212,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150210,1,1
+ lw69x131, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150211,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150213,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150217,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150218,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150219,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150221,1,1
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150222,1,2
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150226,1,2
+ lw69x131, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150227,1,2
+ lw70x132, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw70x132, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw70x132, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw70x132, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw70x132, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw71x133, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw71x133, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw71x133, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw71x133, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw71x133, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw72x134, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw72x134, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw72x134, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw72x134, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw72x134, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw73x135, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw73x135, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw73x135, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw73x135, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw73x135, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw74x136, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw74x136, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw74x136, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw74x136, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw74x136, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw75x137, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw75x137, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw75x137, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw75x137, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw75x137, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw76x138, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw76x138, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw76x138, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw76x138, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw76x138, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw77x139, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw77x139, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw77x139, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw77x139, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw77x139, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw77x139, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lw77x139, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lw77x139, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lw78x140, UWO, 3XTG, w, M,4, Mouse PAL Initial Touch Training v3,20150113,1,1
+ lw78x140, UWO, 3XTG, w, M,4, Mouse PAL Must Initiate Training v3,20150118,1,1
+ lw78x140, UWO, 3XTG, w, M,4, Mouse PAL Must Touch Training v3,20150114,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150119,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150120,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150122,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150125,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150126,1,1
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150127,1,2
+ lw78x140, UWO, 3XTG, w, M,4,Mouse PAL Punish Incorrect Training v3,20150128,1,2
