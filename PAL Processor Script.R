@@ -138,8 +138,8 @@ QC.Pretrain.Function = function(dataset, good.names=good.list){
     new.data = rbind(new.data, temp.data)
   }
   good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
-  new.data = new.data[which(new.data[ ,7] == "4"), ]
-  new.data = new.data[!new.data[ ,8] %in% good.10m, ]
+  new.data = new.data[which(new.data[ ,6] == "4"), ]
+  new.data = new.data[!new.data[ ,7] %in% good.10m, ]
   return(new.data)
 }
 
@@ -271,7 +271,6 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
   }
-  new.data = new.data[which(((new.data[ ,7] == "4") & (new.data[ ,8] %in% good.4m)) & ((new.data[ ,7] == "10") & (new.data[ ,8] %in% good.10m))), ]
   return(dataset)
 }
 
@@ -344,6 +343,16 @@ Datefix.Function <- function(data, colnum){
   return(data)
 }
 
+# Aggregate Function #
+Aggregate.Function = function(dataset){
+  agg.list = list(dataset$AnimalID, dataset$TestSite, dataset$Mouse.Strain, dataset$Genotype, dataset$Sex, dataset$Age.Months, dataset$Task, dataset$Week)
+  agg.data = aggregate(dataset, by= agg.list, FUN=mean, na.rm = TRUE)
+  agg.data[ ,10:16] = agg.data[ ,1:7]
+  agg.data[ ,19] = agg.data[ ,8]
+  agg.data[ ,c(1:9,18)] = NULL
+  return(agg.data)
+}
+
 ############################################################################################
 
 ## Collect Initial Dataset ##
@@ -369,3 +378,13 @@ qc.idlist.pretrain = as.vector(unique(as.character(qc.data.pretrain$AnimalID)))
 qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
+
+## Aggregate Main File ##
+
+qc.data.main.agg = Aggregate.Function(qc.data.main)
+
+## Save Raw Data Files ##
+write.csv(qc.data.pretrain, "Weston PAL Pretrain QC Sept 25 2017.csv")
+write.csv(qc.data.acquisition, "Weston PAL Acquisition QC Sept 25 2017.csv")
+write.csv(qc.data.main, "Weston PAL Main Task QC Sept 25 2017.csv")
+write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC Sept 25 2017.csv")
