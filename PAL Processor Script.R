@@ -42,9 +42,9 @@ bad.list$bad.3x.tg = c(' t', 't') #13
 bad.list$bad.female = c('F') #14
 bad.list$bad.male = c('M') #15
 
-bad.list$bad.4m = c(4,'10') #16
+bad.list$bad.4m = c(4,'4') #16
 bad.list$bad.7m = c(7,'7') #17
-bad.list$bad.10m = c(10,'4') #18
+bad.list$bad.10m = c(10,'10') #18
 
 bad.list$bad.hab1 = c('Hab1') #19
 bad.list$bad.hab2 = c('Hab2') #20
@@ -112,7 +112,7 @@ lookup.list$Task = c(19:32)
 ## Function List ##
 
 # QC Function PAL Pretrain #
-QC.Pretrain.Function = function(dataset){
+QC.Pretrain.Function = function(dataset, good.names=good.list){
   new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
   colnames(new.data) = colnames(dataset)
   initial.ID.list = as.vector(unique(as.character(dataset[ ,1])))
@@ -137,11 +137,14 @@ QC.Pretrain.Function = function(dataset){
     }
     new.data = rbind(new.data, temp.data)
   }
+  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
+  new.data = new.data[which(new.data[ ,7] == "4"), ]
+  new.data = new.data[!new.data[ ,8] %in% good.10m, ]
   return(new.data)
 }
 
 # QC Function PAL Acq #
-QC.Pretrain.Function = function(dataset){
+QC.Acq.Function = function(dataset, good.names=good.list){
   new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
   colnames(new.data) = colnames(dataset)
   initial.ID.list = as.vector(unique(as.character(dataset[ ,2])))
@@ -166,10 +169,53 @@ QC.Pretrain.Function = function(dataset){
     }
     new.data = rbind(new.data, temp.data)
   }
+  good.4m = as.vector(unlist(good.names[c(21,22,23,24,25,29)]))
+  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
+  new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
+  new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
+  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
+  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
+  new.data = rbind(new.data.4m, new.data.10m)
+  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
   return(new.data)
 }
 # QC Function PAL Main #
-#QC.Main.Function
+
+QC.Main.Function = function(dataset, good.names=good.list){
+  new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+  colnames(new.data) = colnames(dataset)
+  initial.ID.list = as.vector(unique(as.character(dataset[ ,2])))
+  for(a in 1:length(initial.ID.list)){
+    temp.id = initial.ID.list[a]
+    temp.data = dataset[which(dataset[ ,2] == temp.id), ]
+    temp.data = temp.data[order(dataset$Date), ]
+    temp.data.dateunique = as.vector(unique(temp.data[ ,9]))
+    if(length(temp.data.dateunique) != length(temp.data[ ,9])){
+      temp.data.2 = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+      colnames(temp.data.2) = temp.data
+      for(b in 1:length(temp.data.dateunique)){
+        data.check = temp.data[which(temp.data[ ,9] == temp.data.dateunique[b]), ]
+        if(nrow(data.check) > 1){
+          data.check = data.check[1, ]
+          temp.data.2 = rbind(temp.data.2,data.check)
+        }else{
+          temp.data.2 = rbind(temp.data.2, data.check)
+        }
+      }
+      temp.data = temp.data.2
+    }
+    new.data = rbind(new.data, temp.data)
+  }
+  good.4m = as.vector(unlist(good.names[c(21,22,23,24,25,29)]))
+  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
+  new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
+  new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
+  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
+  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
+  new.data = rbind(new.data.4m, new.data.10m)
+  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
+  return(new.data)
+}
 
 # Fix Naming Rules - Main & Acq #
 Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.list){
@@ -225,6 +271,7 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
   }
+  new.data = new.data[which(((new.data[ ,7] == "4") & (new.data[ ,8] %in% good.4m)) & ((new.data[ ,7] == "10") & (new.data[ ,8] %in% good.10m))), ]
   return(dataset)
 }
 
@@ -285,6 +332,18 @@ Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad
   return(dataset)
 }
 
+# Fix Date #
+Datefix.Function <- function(data, colnum){
+  a<-list()
+  formats = c('%Y%m%d','%m/%d/%Y')
+  for(i in 1:length(formats)){
+    a[[i]]<- as.Date(as.character(data[ ,colnum]),format=formats[i])
+    a[[1]][!is.na(a[[i]])]<-a[[i]][!is.na(a[[i]])]
+  }
+  data[ ,colnum] = a
+  return(data)
+}
+
 ############################################################################################
 
 ## Collect Initial Dataset ##
@@ -297,7 +356,16 @@ name.data.pretrain = Naming.Pretrain.Function(raw.data.pretrain)
 name.data.acquisition = Naming.MainAcq.Function(raw.data.acquisition)
 name.data.main = Naming.MainAcq.Function(raw.data.main)
 
+## Fix Dates for Files ##
+date.data.pretrain = Datefix.Function(name.data.pretrain,8)
+date.data.acquisition = Datefix.Function(name.data.acquisition,9)
+date.data.main = Datefix.Function(name.data.main,9)
+
 ## Run QC Analysis
-qc.data.pretrain = QC.Pretrain.Function(name.data.pretrain)
+qc.data.pretrain = QC.Pretrain.Function(date.data.pretrain)
 
 qc.idlist.pretrain = as.vector(unique(as.character(qc.data.pretrain$AnimalID)))
+
+qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
+
+qc.data.main = QC.Main.Function(date.data.main)
