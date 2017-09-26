@@ -220,6 +220,49 @@ QC.Main.Function = function(dataset, good.names=good.list){
 # Fix Naming Rules - Main & Acq #
 Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.list){
   colnames(dataset)[1:11] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day','Week')
+  fixed.colnames = colnames(dataset)[13:317]
+  #block.start = list(22:24,27:29,32:34,37:39,42:44,47:49)
+  block.start = c(22,27,32,37,42,47)
+  #lat.start = list(52:87)
+  lat.start = c(52,90,128,166,204,242,280)
+  block.sub = FALSE
+  lat.sub = FALSE
+  block.num = 0
+  lat.num = 0
+  for(a in 1:length(fixed.colnames)){
+    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a])
+    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a])
+    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a])
+    if(is.element(a,block.start) == TRUE){
+      block.sub = TRUE
+      block.num = 1
+    }
+    if(is.element(a,lat.start) == TRUE){
+      lat.sub = TRUE
+      lat.num = 1
+    }
+    if(block.sub == TRUE){
+      if(block.num <= 3){
+        fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        block.num = block.num + 1
+      }else{
+        block.sub = FALSE
+        block.num = 0
+      }
+    }
+    if(lat.sub == TRUE){
+      if(lat.num <= 36){
+        fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        lat.num = lat.num + 1
+      }else{
+        lat.sub = FALSE
+        lat.num = 0
+      }
+    }
+  }
+  colnames(dataset)[13:317] = fixed.colnames
   col.list.spacefix = c(1,2,3,4,5,6,7,8,10,11)
   for(a in col.list.spacefix){
     dataset[ ,a] = gsub(" ", "", dataset[ ,a])
