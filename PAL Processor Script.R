@@ -27,7 +27,7 @@ bad.list$bad.site2 = c('UOG', " UOG") #2
 
 bad.list$bad.app = c('APPPS1', ' APPPS1') #3
 bad.list$bad.5x = c('5FAD',' 5FAD') #4
-bad.list$bad.3x = c('3XTG', ' 3XTG') #5
+bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG','3TG') #5
 
 bad.list$bad.wt = c(' w', 'w') #6
 bad.list$bad.tg = c(' t', 't') #7
@@ -223,16 +223,22 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
   fixed.colnames = colnames(dataset)[13:317]
   #block.start = list(22:24,27:29,32:34,37:39,42:44,47:49)
   block.start = c(22,27,32,37,42,47)
+  for(a in 1:length(block.start)){
+    block.start[a] = block.start[a] - 12
+  }
   #lat.start = list(52:87)
   lat.start = c(52,90,128,166,204,242,280)
+  for(a in 1:length(lat.start)){
+    lat.start[a] = lat.start[a] - 12
+  }
   block.sub = FALSE
   lat.sub = FALSE
   block.num = 0
   lat.num = 0
   for(a in 1:length(fixed.colnames)){
-    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a])
-    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a])
-    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a])
+    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a], ignore.case=FALSE)
+    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a],ignore.case=FALSE)
+    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a],ignore.case=FALSE)
     if(is.element(a,block.start) == TRUE){
       block.sub = TRUE
       block.num = 1
@@ -242,9 +248,12 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       lat.num = 1
     }
     if(block.sub == TRUE){
-      if(block.num <= 3){
+      if((block.num <= 3) & (block.num > 1)){
         fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
-        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = "")
+        block.num = block.num + 1
+      }else if(block.num == 1){
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = ".")
         block.num = block.num + 1
       }else{
         block.sub = FALSE
@@ -252,9 +261,12 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
     if(lat.sub == TRUE){
-      if(lat.num <= 36){
+      if((lat.num <= 36) & (lat.num > 1)){
         fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
         fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        lat.num = lat.num + 1
+      }else if(lat.num == 1){
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = ".")
         lat.num = lat.num + 1
       }else{
         lat.sub = FALSE
@@ -386,6 +398,38 @@ Datefix.Function <- function(data, colnum){
   return(data)
 }
 
+# Fix Latency Calc #
+LatFix.MainAcq.Function = function(dataset,IQD.num){
+  mean.colnums = c(126,164,202,240,278,316)
+  for(a in 1:length(mean.colnums)){
+    lat.raw.cols = c((mean.colnums[a] - 36):(mean.colnums[a] - 1))
+    mean.col = mean.colnums[a]
+    std.col = mean.colnums[a] + 1
+    for(b in 1:nrow(dataset)){
+      lat.data = as.vector(as.numeric(dataset[b,lat.raw.cols]))
+      lat.iqr = IQR(lat.data,na.rm=TRUE)
+      lat.mean = mean(lat.data, na.rm=TRUE)
+      lat.iqd.upper = lat.mean + (IQD.num * lat.iqr)
+      lat.iqd.lower = lat.mean - (IQD.num * lat.iqr)
+      lat.data = lat.data[lat.data > lat.iqd.lower]
+      lat.data = lat.data[lat.data < lat.iqd.upper]
+      lat.newmean = mean(lat.data, na.rm=TRUE)
+      lat.newsd = sd(lat.data, na.rm=TRUE)
+      dataset[b,mean.col] = lat.newmean
+      dataset[b,std.col] = lat.newsd
+    }
+    mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
+    mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+    mean.mean = mean(mean.avg.data, na.rm=TRUE)
+    mean.iqd.upper = mean.mean + (IQD.num * mean.iqr)
+    mean.iqd.lower = mean.mean - (IQD.num & mean.iqr)
+    mean.avg.data[mean.avg.data < mean.iqd.lower] = NA
+    mean.avg.data[mean.avg.data > mean.iqd.upper] = NA
+    dataset[ ,mean.col] = mean.avg.data
+  }
+  return(dataset)
+}
+
 # Aggregate Function #
 Aggregate.Function = function(dataset){
   agg.list = list(dataset$AnimalID, dataset$TestSite, dataset$Mouse.Strain, dataset$Genotype, dataset$Sex, dataset$Age.Months, dataset$Task, dataset$Week)
@@ -427,7 +471,7 @@ qc.data.main = QC.Main.Function(date.data.main)
 qc.data.main.agg = Aggregate.Function(qc.data.main)
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PAL Pretrain QC Sept 25 2017.csv")
-write.csv(qc.data.acquisition, "Weston PAL Acquisition QC Sept 25 2017.csv")
-write.csv(qc.data.main, "Weston PAL Main Task QC Sept 25 2017.csv")
-write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC Sept 25 2017.csv")
+write.csv(qc.data.pretrain, "Weston PAL Pretrain QC Sept 27 2017.csv")
+write.csv(qc.data.acquisition, "Weston PAL Acquisition QC Sept 27 2017.csv")
+write.csv(qc.data.main, "Weston PAL Main Task QC Sept 27 2017.csv")
+write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC Sept 27 2017.csv")
