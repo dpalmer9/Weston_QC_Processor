@@ -27,7 +27,7 @@ bad.list$bad.site2 = c('UOG', " UOG") #2
 
 bad.list$bad.app = c('APPPS1', ' APPPS1') #3
 bad.list$bad.5x = c('5FAD',' 5FAD') #4
-bad.list$bad.3x = c('3XTG', ' 3XTG') #5
+bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG', ' 3xTG') #5
 
 bad.list$bad.wt = c(' w', 'w') #6
 bad.list$bad.tg = c(' t', 't') #7
@@ -223,16 +223,22 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
   fixed.colnames = colnames(dataset)[13:317]
   #block.start = list(22:24,27:29,32:34,37:39,42:44,47:49)
   block.start = c(22,27,32,37,42,47)
+  for(a in 1:length(block.start)){
+    block.start[a] = block.start[a] - 12
+  }
   #lat.start = list(52:87)
   lat.start = c(52,90,128,166,204,242,280)
+  for(a in 1:length(lat.start)){
+    lat.start[a] = lat.start[a] - 12
+  }
   block.sub = FALSE
   lat.sub = FALSE
   block.num = 0
   lat.num = 0
   for(a in 1:length(fixed.colnames)){
-    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a])
-    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a])
-    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a])
+    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a], ignore.case=FALSE)
+    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a],ignore.case=FALSE)
+    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a],ignore.case=FALSE)
     if(is.element(a,block.start) == TRUE){
       block.sub = TRUE
       block.num = 1
@@ -242,9 +248,12 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       lat.num = 1
     }
     if(block.sub == TRUE){
-      if(block.num <= 3){
+      if((block.num <= 3) & (block.num > 1)){
         fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
-        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = "")
+        block.num = block.num + 1
+      }else if(block.num == 1){
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = ".")
         block.num = block.num + 1
       }else{
         block.sub = FALSE
@@ -252,9 +261,12 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
     if(lat.sub == TRUE){
-      if(lat.num <= 36){
+      if((lat.num <= 36) & (lat.num > 1)){
         fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
         fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        lat.num = lat.num + 1
+      }else if(lat.num == 1){
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = ".")
         lat.num = lat.num + 1
       }else{
         lat.sub = FALSE
