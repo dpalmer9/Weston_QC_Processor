@@ -27,11 +27,7 @@ bad.list$bad.site2 = c('UOG', " UOG") #2
 
 bad.list$bad.app = c('APPPS1', ' APPPS1') #3
 bad.list$bad.5x = c('5FAD',' 5FAD') #4
-<<<<<<< HEAD
 bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG','3TG') #5
-=======
-bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG', ' 3xTG') #5
->>>>>>> 788a53da8b0fe91604ec0b805cf7a2cc51bc0057
 
 bad.list$bad.wt = c(' w', 'w') #6
 bad.list$bad.tg = c(' t', 't') #7
