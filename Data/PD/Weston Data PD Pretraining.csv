@@ -1,0 +1,1169 @@
+ Database, Animal ID, Site, Mouse strain,Genotype, Gender, Age (months), Schedule name, Schedule run date, Day
+ GUEPD3XTG3MF, gt66x120, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt66x120, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt66x120, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt66x120, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt66x120, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt66x121, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,3
+ GUEPD3XTG3MF, gt66x122, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt66x122, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt66x122, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt66x122, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt66x122, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,3
+ GUEPD3XTG3MF, gt67x123, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141218,4
+ GUEPD3XTG3MF, gt67x124, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt67x124, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt67x124, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt67x124, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt67x124, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt67x125, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt67x125, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt67x125, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt67x125, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt67x125, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt68x126, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt68x126, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt68x126, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt68x126, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt68x126, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141210,2
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141211,3
+ GUEPD3XTG3MF, gt68x127,Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,1
+ GUEPD3XTG3MF, gt68x127, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141218,2
+ GUEPD3XTG3MF, gt68x128, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt68x128, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt68x128, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt68x128, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt68x128, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt69x129, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt69x129, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt69x129, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt69x129, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt69x129, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt69x130, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,3
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,3
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141218,4
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141219,5
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141222,6
+ GUEPD3XTG3MF, gt69x131, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141223,7
+ GUEPD3XTG3MF, gt70x132, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt70x132, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt70x132, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt70x132, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt70x132, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt70x133, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt70x133, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt70x133, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt70x133, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt70x133, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141212,3
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141218,4
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141219,5
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141222,6
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141223,7
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141229,8
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141230,9
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20141231,10
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150101,11
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150102,12
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150105,13
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150107,14
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150108,15
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150109,16
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150112,17
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150113,18
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150114,19
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150115,20
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150116,21
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150119,22
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150120,23
+ GUEPD3XTG3MF, gt70x134, Site 2, 3xTG-AD, 3xTG-AD,Female,4, PD_Punish_Incorrect_Training_v3,20150121,24
+ GUEPD3XTG3MF, gw61x105, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw61x105, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw61x105, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw61x105, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw61x105, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw61x106, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw61x106, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw61x106, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw61x106, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw61x106, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw61x107, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw61x107, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw61x107, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw61x107, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw61x107, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw62x108, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw62x108, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw62x108, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw62x108, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw62x108, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw62x109, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw62x109, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw62x109, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw62x109, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw62x109, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw62x110, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw62x110, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw62x110, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw62x110, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw62x110, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw63x111, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw63x111, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw63x111, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw63x111, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,1
+ GUEPD3XTG3MF, gw63x112, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw63x112, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw63x112, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw63x112, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw63x112, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw63x113, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw63x113, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw63x113, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw63x113, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw63x113, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141211,1
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141212,2
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141218,3
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141209,2
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141210,3
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141219,1
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141222,2
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141223,3
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141229,4
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141230,5
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141231,6
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20150101,7
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20150102,8
+ GUEPD3XTG3MF, gw64x114, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20150105,9
+ GUEPD3XTG3MF, gw64x115, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw64x115, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw64x115, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw64x115, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw64x115, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw64x116, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw64x116, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw64x116, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw64x116, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw64x116, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw65x117, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw65x117, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw65x117, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw65x117, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw65x117, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw65x118, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw65x118, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw65x118, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw65x118, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw65x118, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD3XTG3MF, gw65x119, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Initial_Touch_Training_v3,20141205,1
+ GUEPD3XTG3MF, gw65x119, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Initiate_Training_v3,20141209,1
+ GUEPD3XTG3MF, gw65x119, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Must_Touch_Training_v3,20141208,1
+ GUEPD3XTG3MF, gw65x119, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141210,1
+ GUEPD3XTG3MF, gw65x119, Site 2, 3xTG-AD,B6129SF2/J ,Female,4, PD_Punish_Incorrect_Training_v3,20141211,2
+ GUEPD5FAD3MF, gt178f422, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20160226,1
+ GUEPD5FAD3MF, gt178f422, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt178f422, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt178f422, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt178f422, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt178f423, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20160226,1
+ GUEPD5FAD3MF, gt178f423, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt178f423, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt178f423, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt178f423, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt178f424, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20160226,1
+ GUEPD5FAD3MF, gt178f424, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt178f424, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt178f424, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt178f424, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt178f425, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20160226,1
+ GUEPD5FAD3MF, gt178f425, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt178f425, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt178f425, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt178f425, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt179f426, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt179f426, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt179f426, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt179f426, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160307,3
+ GUEPD5FAD3MF, gt179f427, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160308,4
+ GUEPD5FAD3MF, gt179f428, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt179f428, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt179f428, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt179f428, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt179f429, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20160301,1
+ GUEPD5FAD3MF, gt179f429, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20160229,1
+ GUEPD5FAD3MF, gt179f429, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160302,1
+ GUEPD5FAD3MF, gt179f429, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20160303,2
+ GUEPD5FAD3MF, gt74f147, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt74f147, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt74f147, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt74f147, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150202,3
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150203,4
+ GUEPD5FAD3MF, gt74f148, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150204,5
+ GUEPD5FAD3MF, gt74f149, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt74f149, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt74f149, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt74f149, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt74f149, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt74f150, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt74f150, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt74f150, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt74f150, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt75f151, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt75f151, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt75f151, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt75f151, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt75f151, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt75f152, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt75f152, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt75f152, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt75f152, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt75f152, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt75f153, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150202,3
+ GUEPD5FAD3MF, gt75f154, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt75f154, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt75f154, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt75f154, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt75f154, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt76f155, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt76f155, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt76f155, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt76f155, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt76f155, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt76f156, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt76f156, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt76f156, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt76f156, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt76f156, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt76f157, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt76f157, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt76f157, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt76f157, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt76f157, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gt76f158, Site 2, 5xFAD, 5xFAD,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gt76f158, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gt76f158, Site 2, 5xFAD, 5xFAD,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gt76f158, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gt76f158, Site 2, 5xFAD, 5xFAD,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw175f410, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw175f410, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw175f410, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw175f410, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw175f410, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw175f411, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw175f411, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw175f411, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw175f411, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw175f411, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw175f412, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw175f412, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw175f412, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw175f412, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw175f412, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160229,3
+ GUEPD5FAD3MF, gw175f413, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160301,4
+ GUEPD5FAD3MF, gw176f414, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw176f414, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw176f414, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw176f414, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw176f414, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw176f415, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw176f415, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw176f415, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw176f415, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw176f415, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw176f416, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw176f416, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw176f416, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw176f416, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw176f416, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw176f417, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160222,1
+ GUEPD5FAD3MF, gw176f417, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw176f417, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw176f417, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw176f417, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw177f418, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw177f418, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw177f418, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw177f418, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw177f419, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw177f419, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw177f419, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw177f419, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw177f420, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw177f420, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw177f420, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw177f420, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw177f421, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20160223,1
+ GUEPD5FAD3MF, gw177f421, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20160224,1
+ GUEPD5FAD3MF, gw177f421, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160225,1
+ GUEPD5FAD3MF, gw177f421, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20160226,2
+ GUEPD5FAD3MF, gw71f135, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw71f135, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw71f135, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw71f135, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw71f135, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw71f136, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw71f136, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw71f136, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw71f136, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw71f136, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw71f137, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw71f137, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw71f137, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw71f137, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw71f137, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150202,3
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150203,4
+ GUEPD5FAD3MF, gw71f138, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150204,5
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150128,2
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw72f139, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150202,3
+ GUEPD5FAD3MF, gw72f140, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw72f140, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw72f140, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150128,2
+ GUEPD5FAD3MF, gw72f140, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw72f140, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw72f141, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw72f141, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw72f141, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150128,2
+ GUEPD5FAD3MF, gw72f141, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw72f141, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw72f142, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw72f142, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw72f142, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150128,2
+ GUEPD5FAD3MF, gw72f142, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw72f142, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw73f143, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw73f143, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw73f143, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw73f143, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw73f143, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw73f144, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw73f144, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw73f144, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw73f144, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw73f144, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw73f145, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw73f145, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw73f145, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw73f145, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw73f145, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPD5FAD3MF, gw73f146, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Initial_Touch_Training_v3,20150126,1
+ GUEPD5FAD3MF, gw73f146, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Initiate_Training_v3,20150128,1
+ GUEPD5FAD3MF, gw73f146, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Must_Touch_Training_v3,20150127,1
+ GUEPD5FAD3MF, gw73f146, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150129,1
+ GUEPD5FAD3MF, gw73f146, Site 2, 5xFAD,C57Bl/6j ,Female,4, PD_Punish_Incorrect_Training_v3,20150130,2
+ GUEPDAPP3MF, gt147a317, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gt147a317, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gt147a317, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gt147a317, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gt147a317, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gt147a318, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gt147a318, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gt147a318, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gt147a318, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gt147a318, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gt148a320, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gt148a320, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gt148a320, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gt148a320, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gt148a320, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gt148a321, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gt148a321, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gt148a321, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gt148a321, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gt148a321, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gt149a322, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt149a322, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt149a322, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt149a322, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt149a322, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt149a324, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150907,3
+ GUEPDAPP3MF, gt149a325, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt149a325, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt149a325, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt149a325, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt149a325, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt150a327, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt150a327, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt150a327, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt150a327, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt150a327, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt150a328, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt150a328, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt150a328, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt150a328, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt150a328, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt150a329, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt150a329, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt150a329, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt150a329, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt150a329, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt151a330, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt151a330, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt151a330, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt151a330, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt151a330, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gt151a331, Site 2, APP-PS1, APPPS1,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gt151a331, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gt151a331, Site 2, APP-PS1, APPPS1,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gt151a331, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gt151a331, Site 2, APP-PS1, APPPS1,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150831,3
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150901,4
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150902,5
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,6
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,7
+ GUEPDAPP3MF, gw142a300, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,8
+ GUEPDAPP3MF, gw142a301, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw142a301, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw142a301, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw142a301, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gw142a301, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150831,3
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150901,4
+ GUEPDAPP3MF, gw142a302, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150902,5
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gw142a303, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150831,3
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150827,2
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150828,3
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150831,4
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150901,5
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,6
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,3
+ GUEPDAPP3MF, gw143a304, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150908,4
+ GUEPDAPP3MF, gw143a305, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150824,1
+ GUEPDAPP3MF, gw143a305, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150826,1
+ GUEPDAPP3MF, gw143a305, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150825,1
+ GUEPDAPP3MF, gw143a305, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150827,1
+ GUEPDAPP3MF, gw143a305, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150828,2
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150903,2
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150904,3
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,1
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150908,2
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150909,3
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150910,4
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150911,5
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150914,6
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150915,7
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150916,8
+ GUEPDAPP3MF, gw144a306, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150917,9
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,3
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150908,4
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150909,5
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150910,6
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150911,7
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150914,8
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150915,9
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150916,10
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150917,11
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150918,12
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150921,13
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150922,14
+ GUEPDAPP3MF, gw144a307, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150923,15
+ GUEPDAPP3MF, gw144a309, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw144a309, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gw144a309, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gw144a309, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150903,1
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150902,2
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,1
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,2
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150908,3
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150909,4
+ GUEPDAPP3MF, gw145a310, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150910,5
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150903,1
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150902,2
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,1
+ GUEPDAPP3MF, gw145a311, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,2
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150903,1
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150902,2
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,1
+ GUEPDAPP3MF, gw145a312, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,2
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150903,1
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150902,2
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,1
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150907,2
+ GUEPDAPP3MF, gw145a313, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150908,3
+ GUEPDAPP3MF, gw146a314, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw146a314, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gw146a314, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw146a314, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gw146a314, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ GUEPDAPP3MF, gw146a315, Site 2, APP-PS1,C57Bl6,Female,4, PD_Initial_Touch_Training_v3,20150831,1
+ GUEPDAPP3MF, gw146a315, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Initiate_Training_v3,20150902,1
+ GUEPDAPP3MF, gw146a315, Site 2, APP-PS1,C57Bl6,Female,4, PD_Must_Touch_Training_v3,20150901,1
+ GUEPDAPP3MF, gw146a315, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150903,1
+ GUEPDAPP3MF, gw146a315, Site 2, APP-PS1,C57Bl6,Female,4, PD_Punish_Incorrect_Training_v3,20150904,2
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140918,2
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140919,3
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140922,4
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Punish_Incorrect_Training_v3,20140923,1
+ LONPD3XTG3MM, lt57x112, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Punish_Incorrect_Training_v3,20140924,2
+ LONPD3XTG3MM, lt57x113, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt57x113, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt57x113, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt57x113, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt57x113, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt58x114, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt58x114, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt58x114, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt58x114, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt58x114, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt58x115, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt58x115, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt58x115, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt58x115, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt58x115, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt59x116, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt59x116, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt59x116, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt59x116, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt59x116, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt59x117, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt59x117, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt59x117, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt59x117, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt59x117, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt60x118, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140922,3
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140918,2
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,1
+ LONPD3XTG3MM, lt60x119, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140922,2
+ LONPD3XTG3MM, lt61x120, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt61x120, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt61x120, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt61x120, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt61x120, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140920,2
+ LONPD3XTG3MM, lt61x121, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt61x121, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt61x121, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt61x121, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt61x121, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140920,2
+ LONPD3XTG3MM, lt62x122, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt62x122, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt62x122, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt62x122, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt62x122, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140920,2
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140916,2
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140917,3
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140918,4
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140919,5
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20140924,1
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20140925,2
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20140926,3
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20140929,4
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20140930,5
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Initiate_Training_v3,20141001,6
+ LONPD3XTG3MM, lt62x123, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140923,1
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lt63x124, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140922,3
+ LONPD3XTG3MM, lt63x125, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt63x125, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lt63x125, Site 1, 3xTG-AD, 3xTG-AD,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lt63x125, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lt63x125, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Punish_Incorrect_Training_v3,20140920,2
+ LONPD3XTG3MM, lt64x126, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lt64x126, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140916,2
+ LONPD3XTG3MM, lt64x126, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140918,3
+ LONPD3XTG3MM, lt64x126, Site 1, 3xTG-AD, 3xTG-AD,Male,4,PD_Initial_Touch_Training_v3,20140919,4
+ LONPD3XTG3MM, lw49x097, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw49x097, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw49x097, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw49x097, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw49x097, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140918,1
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140917,2
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,1
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140922,2
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140923,3
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140924,4
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140925,5
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140926,6
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140929,7
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140930,8
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141001,9
+ LONPD3XTG3MM, lw49x098, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141002,10
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140918,1
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140917,2
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,1
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140922,2
+ LONPD3XTG3MM, lw50x099, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140923,3
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140918,2
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140919,3
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140922,4
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140923,5
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140924,6
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140925,7
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Punish_Incorrect_Training_v3,20140930,1
+ LONPD3XTG3MM, lw50x100, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Punish_Incorrect_Training_v3,20141001,2
+ LONPD3XTG3MM, lw51x101, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw51x101, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw51x101, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw51x101, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw51x101, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw51x102, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw51x102, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw51x102, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw51x102, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw51x102, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw52x103, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw52x103, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw52x103, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw52x103, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw52x103, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw52x104, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw52x104, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw52x104, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw52x104, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw52x104, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140917,1
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140918,2
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140919,3
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Initiate_Training_v3,20140923,1
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Initiate_Training_v3,20140924,2
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Initiate_Training_v3,20140925,3
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Initiate_Training_v3,20140928,4
+ LONPD3XTG3MM, lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140922,1
+ LONPD3XTG3MM, lw53x106, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw53x106, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw53x106, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw53x106, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw53x106, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw54x107, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw54x107, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw54x107, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw54x107, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw54x107, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw54x108, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw54x108, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw54x108, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw54x108, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw54x108, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw55x109, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw55x109, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw55x109, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw55x109, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw55x109, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw55x110, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw55x110, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw55x110, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw55x110, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw55x110, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD3XTG3MM, lw56x111, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Initial_Touch_Training_v3,20140915,1
+ LONPD3XTG3MM, lw56x111, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Must_Initiate_Training_v3,20140917,1
+ LONPD3XTG3MM, lw56x111, Site 1, 3xTG-AD,B6129SF2/J ,Male,4, PD_Must_Touch_Training_v3,20140916,1
+ LONPD3XTG3MM, lw56x111, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140918,1
+ LONPD3XTG3MM, lw56x111, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20140919,2
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150225,3
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150303,4
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150304,5
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150305,6
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150306,7
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150311,8
+ LONPD5FAD3MM, lt107f169, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150312,9
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150225,3
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150303,4
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150304,5
+ LONPD5FAD3MM, lt108f170, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150305,6
+ LONPD5FAD3MM, lt109f171, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt109f171, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt109f171, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt109f171, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lt109f171, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt110f172, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt110f172, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt110f172, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt110f172, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lt110f172, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt111f173, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt111f173, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt111f173, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt111f173, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt111f173, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt112f174, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt112f174, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt112f174, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt112f174, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt112f174, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt113f175, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt113f175, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt113f175, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt113f175, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt113f175, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt114f176, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt114f176, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt114f176, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt114f176, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt114f176, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt115f177, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt115f177, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt115f177, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt115f177, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt115f177, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt116f178, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt116f178, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt116f178, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt116f178, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt116f178, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150226,3
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150303,4
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150304,5
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150305,6
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150306,7
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150311,8
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150312,9
+ LONPD5FAD3MM, lt117f179, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150313,10
+ LONPD5FAD3MM, lt118f180, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt118f180, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt118f180, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt118f180, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt118f180, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt119f181, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt119f181, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt119f181, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt119f181, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt119f181, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt120f182, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lt120f182, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lt120f182, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lt120f182, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lt120f182, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160314,3
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160315,4
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160316,5
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160317,6
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160318,7
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160321,8
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160322,9
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160323,10
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160324,11
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160328,12
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160330,13
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160331,14
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160401,15
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160402,16
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160404,17
+ LONPD5FAD3MM, lt382f444, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160405,18
+ LONPD5FAD3MM, lt383f445, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lt383f445, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lt383f445, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lt383f445, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lt383f445, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160315,3
+ LONPD5FAD3MM, lt384f446, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160316,4
+ LONPD5FAD3MM, lt385f447, Site 1, 5xFAD, 5xFAD,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lt385f447, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lt385f447, Site 1, 5xFAD, 5xFAD,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lt385f447, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lt385f447, Site 1, 5xFAD, 5xFAD,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lw100f162, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw100f162, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw100f162, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw100f162, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw100f162, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw101f163, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150225,3
+ LONPD5FAD3MM, lw102f164, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw102f164, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw102f164, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw102f164, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lw102f164, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw103f165, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw103f165, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw103f165, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw103f165, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lw103f165, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw104f166, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw104f166, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw104f166, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw104f166, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lw104f166, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw105f167, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw105f167, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw105f167, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw105f167, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lw105f167, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw106f168, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw106f168, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw106f168, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw106f168, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150223,1
+ LONPD5FAD3MM, lw106f168, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw378f440, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lw378f440, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lw378f440, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lw378f440, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lw378f440, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lw379f441, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160315,3
+ LONPD5FAD3MM, lw380f442, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lw380f442, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lw380f442, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lw380f442, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lw380f442, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lw381f443, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lw381f443, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lw381f443, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lw381f443, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lw381f443, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPD5FAD3MM, lw93f155, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw93f155, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw93f155, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw93f155, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw93f155, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw94f156, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw94f156, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw94f156, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw94f156, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw94f156, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150225,3
+ LONPD5FAD3MM, lw95f157, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150303,4
+ LONPD5FAD3MM, lw97f159, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw97f159, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw97f159, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw97f159, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw97f159, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw98f160, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw98f160, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw98f160, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw98f160, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw98f160, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Initial_Touch_Training_v3,20150213,1
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Initiate_Training_v3,20150219,1
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Must_Touch_Training_v3,20150218,1
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150220,1
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150224,2
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150225,3
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150303,4
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150304,5
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150305,6
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150306,7
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150311,8
+ LONPD5FAD3MM, lw99f161, Site 1, 5xFAD,C57Bl/6j ,Male,4, PD_Punish_Incorrect_Training_v3,20150312,9
+ LONPDAPP4MM, lt155a217, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt155a217, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt155a217, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt155a217, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt155a217, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt156a218, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt156a218, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt156a218, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt156a218, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt156a218, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt159a221, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt159a221, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt159a221, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt159a221, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt159a221, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150721,2
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150722,3
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150727,1
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150724,1
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150725,2
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150728,1
+ LONPDAPP4MM, lt160a222, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150729,2
+ LONPDAPP4MM, lt163a225, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt163a225, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt163a225, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt163a225, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt163a225, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt164a226, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt164a226, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt164a226, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt164a226, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt164a226, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt167a229, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt167a229, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt167a229, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt167a229, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt167a229, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt168a230, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lt168a230, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lt168a230, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lt168a230, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lt168a230, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lt217a279, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lt217a279, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150923,1
+ LONPDAPP4MM, lt217a279, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150922,1
+ LONPDAPP4MM, lt217a279, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150924,1
+ LONPDAPP4MM, lt217a279, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150925,2
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150918,1
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150922,1
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150923,1
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150924,2
+ LONPDAPP4MM, lt222a284, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150925,3
+ LONPDAPP4MM, lw153a215, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw153a215, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw153a215, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw153a215, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw153a215, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw154a216, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw154a216, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw154a216, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw154a216, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw154a216, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw157a219, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw157a219, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw157a219, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw157a219, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw157a219, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150724,2
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,1
+ LONPDAPP4MM, lw158a220, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150727,2
+ LONPDAPP4MM, lw161a223, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw161a223, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw161a223, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw161a223, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw161a223, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw162a224, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw162a224, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw162a224, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw162a224, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw162a224, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw165a227, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw165a227, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw165a227, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw165a227, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw165a227, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw166a228, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150720,1
+ LONPDAPP4MM, lw166a228, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150722,1
+ LONPDAPP4MM, lw166a228, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150721,1
+ LONPDAPP4MM, lw166a228, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150724,1
+ LONPDAPP4MM, lw166a228, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150725,2
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150923,1
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150922,1
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150924,1
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150925,2
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150928,3
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150929,4
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20151002,5
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20151005,6
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20151006,7
+ LONPDAPP4MM, lw215a277, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20151007,8
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150923,1
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150922,1
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150924,1
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150925,2
+ LONPDAPP4MM, lw216a278, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150928,3
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150918,1
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150922,1
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150923,1
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150924,2
+ LONPDAPP4MM, lw219a281, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150925,3
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150918,1
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150922,1
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150923,1
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150924,2
+ LONPDAPP4MM, lw220a282, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150925,3
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20150918,1
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20150922,1
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20150921,1
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150923,1
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150924,2
+ LONPDAPP4MM, lw223a285, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20150925,3
+ LONPD3XTG3MM,lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141006,2
+ LONPD3XTG3MM,lw53x105, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141003,1
+ LONPD3XTG3MM,lt62x123, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141008,2
+ LONPD3XTG3MM,lt62x123, Site 1, 3xTG-AD,B6129SF2/J ,Male,4,PD_Punish_Incorrect_Training_v3,20141007,1
+ LON5CAPP4MM, lt218a280, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20150921,1
+ LON5CAPP4MM, lt218a280, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20150923,1
+ LON5CAPP4MM, lt218a280, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20150922,1
+ LON5CAPP4MM, lt218a280, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150924,1
+ LON5CAPP4MM, lt218a280, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20150925,1
+ LONPDAPP4MM, lt378a440, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20160418,1
+ LONPDAPP4MM, lt378a440, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20160420,1
+ LONPDAPP4MM, lt378a440, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20160419,1
+ LONPDAPP4MM, lt378a440, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160422,1
+ LONPDAPP4MM, lt378a440, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160425,2
+ LONPDAPP4MM, lt381a443, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20160418,1
+ LONPDAPP4MM, lt381a443, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20160420,1
+ LONPDAPP4MM, lt381a443, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20160419,1
+ LONPDAPP4MM, lt381a443, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160422,1
+ LONPDAPP4MM, lt381a443, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160425,2
+ LONPD5FAD3MM, lt382a444, Site 1, APP-PS1, APPPS1,Male,4, PD_Initial_Touch_Training_v3,20160307,1
+ LONPD5FAD3MM, lt382a444, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Initiate_Training_v3,20160309,1
+ LONPD5FAD3MM, lt382a444, Site 1, APP-PS1, APPPS1,Male,4, PD_Must_Touch_Training_v3,20160308,1
+ LONPD5FAD3MM, lt382a444, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160310,1
+ LONPD5FAD3MM, lt382a444, Site 1, APP-PS1, APPPS1,Male,4, PD_Punish_Incorrect_Training_v3,20160311,2
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20160418,1
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20160420,1
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20160419,1
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160422,1
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160425,2
+ LONPDAPP4MM, lw379a441, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160426,3
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Initial_Touch_Training_v3,20160418,1
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Initiate_Training_v3,20160420,1
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Must_Touch_Training_v3,20160419,1
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160422,1
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160425,2
+ LONPDAPP4MM, lw383a445, Site 1, APP-PS1,C57Bl6,Male,4, PD_Punish_Incorrect_Training_v3,20160426,3

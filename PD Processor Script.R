@@ -32,7 +32,7 @@ bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG','3TG') #5
 bad.list$bad.wt = c(' w', 'w') #6
 bad.list$bad.tg = c(' t', 't') #7
 
-bad.list$bad.app.wt = c(' w', 'w') #8 
+bad.list$bad.app.wt = c(' w', 'w', 'C57Bl/6j') #8 
 bad.list$bad.app.tg = c(' t', 't') #9
 bad.list$bad.5x.wt = c(' w', 'w') #10
 bad.list$bad.5x.tg = c(' t', 't') #11
@@ -118,17 +118,17 @@ lookup.list$Task = c(19:32)
 QC.Pretrain.Function = function(dataset, good.names=good.list){
   new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
   colnames(new.data) = colnames(dataset)
-  initial.ID.list = as.vector(unique(as.character(dataset[ ,1])))
+  initial.ID.list = as.vector(unique(as.character(dataset[ ,2])))
   for(a in 1:length(initial.ID.list)){
     temp.id = initial.ID.list[a]
-    temp.data = dataset[which(dataset[ ,1] == temp.id), ]
+    temp.data = dataset[which(dataset[ ,2] == temp.id), ]
     temp.data = temp.data[order(dataset$Date), ]
-    temp.data.dateunique = as.vector(unique(temp.data[ ,8]))
-    if(length(temp.data.dateunique) != length(temp.data[ ,8])){
+    temp.data.dateunique = as.vector(unique(temp.data[ ,9]))
+    if(length(temp.data.dateunique) != length(temp.data[ ,9])){
       temp.data.2 = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
       colnames(temp.data.2) = temp.data
       for(b in 1:length(temp.data.dateunique)){
-        data.check = temp.data[which(temp.data[ ,8] == temp.data.dateunique[b]), ]
+        data.check = temp.data[which(temp.data[ ,9] == temp.data.dateunique[b]), ]
         if(nrow(data.check) > 1){
           data.check = data.check[1, ]
           temp.data.2 = rbind(temp.data.2,data.check)
@@ -140,9 +140,9 @@ QC.Pretrain.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
-  new.data = new.data[which(new.data[ ,6] == "4"), ]
-  new.data = new.data[!new.data[ ,7] %in% good.10m, ]
+  good.10m = as.vector(unlist(good.names[c(25:33)]))
+  new.data = new.data[which(new.data[ ,7] == "4"), ]
+  new.data = new.data[!new.data[ ,8] %in% good.10m, ]
   return(new.data)
 }
 
@@ -172,15 +172,57 @@ QC.Acq.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.4m = as.vector(unlist(good.names[c(21,22,23,24,25,29)]))
-  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
+  good.4m = as.vector(unlist(good.names[c(25)]))
+  good.7m = as.vector(unlist(good.names[c(26)]))
+  good.10m = as.vector(unlist(good.names[c(27)]))
   new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
+  new.data.7m = new.data[which(new.data[ ,7] == "7"), ]
   new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
-  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
-  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
-  new.data = rbind(new.data.4m, new.data.10m)
-  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
-  return(new.data)
+  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% c(good.7m,good.10m), ]
+  new.data.7m = new.data.7m[!new.data.7m[ ,8] %in% c(good.4m,good.10m), ]
+  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% c(good.4m,good.7m), ]
+  new.data = rbind(new.data.4m, new.data.7m)
+  new.data = rbind(new.data,new.data.10m)
+  new.data = new.data[which(((new.data[ ,15] == 30 ) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 30 ) & (new.data[ ,14] > 3599))), ]
+  final.data = as.data.frame(matrix(nrow=0,ncol=ncol(new.data)))
+  for(a in 1:length(initial.ID.list)){
+    temp.id = initial.ID.list[a]
+    temp.data = new.data[which(new.data[ ,2] == temp.id), ]
+    temp.4m = temp.data[which(temp.data[ ,7] == "4"), ]
+    temp.7m = temp.data[which(temp.data[ ,7] == "7"), ]
+    temp.10m = temp.data[which(temp.data[ ,7] == "10"), ]
+    criteria.check.func = function(dataset){
+      date.org = dataset[order(dataset[ ,9]), ]
+      if(nrow(dataset) > 0){
+        checked.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+        criteria.count = 0
+        for(b in 1:nrow(date.org)){
+          if(criteria.count == 2){
+            break
+          }
+          current.trials = date.org[b,15]
+          current.acc = date.org[b,17]
+          if(isTRUE((current.trials == 30) & (current.acc >= 80))){
+            criteria.count = criteria.count + 1
+          }else{
+            criteria.count = 0
+          }
+          checked.data = rbind(checked.data,date.org[b, ])
+        }
+        return(checked.data)
+      }else{
+        return(date.org)
+      }
+    }
+    temp.4m = criteria.check.func(temp.4m)
+    temp.7m = criteria.check.func(temp.7m)
+    temp.10m = criteria.check.func(temp.10m)
+    temp.data = rbind(temp.4m,temp.7m)
+    temp.data = rbind(temp.data,temp.10m)
+    final.data = rbind(final.data,temp.data)
+  }
+  
+  return(final.data)
 }
 # QC Function PAL Main #
 
@@ -209,59 +251,40 @@ QC.Main.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.4m = as.vector(unlist(good.names[c(21,22,23,24,25,29)]))
-  good.10m = as.vector(unlist(good.names[c(26,27,28,30,31,32)]))
+  good.4m = as.vector(unlist(good.names[c(28,31)]))
+  good.7m = as.vector(unlist(good.names[c(29,32)]))
+  good.10m = as.vector(unlist(good.names[c(30,33)]))
   new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
+  new.data.7m = new.data[which(new.data[ ,7] == "7"), ]
   new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
-  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
-  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
-  new.data = rbind(new.data.4m, new.data.10m)
-  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
+  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% c(good.7m,good.10m), ]
+  new.data.7m = new.data.7m[!new.data.7m[ ,8] %in% c(good.4m,good.10m), ]
+  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% c(good.4m,good.7m), ]
+  new.data = rbind(new.data.4m, new.data.7m)
+  new.data = rbind(new.data,new.data.10m)
+  new.data[ ,14] = as.character(new.data[ ,14])
+  new.data[ ,14] = gsub(",", "", new.data[ ,14])
+  new.data[ ,14] = as.numeric(new.data[ ,14])
+  new.data2 = new.data[which(((new.data[ ,15] == 30 ) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 30 ) & (new.data[ ,14] > 3599))), ]
   return(new.data)
 }
 
 # Fix Naming Rules - Main & Acq #
 Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.list){
-  colnames(dataset)[1:11] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day','Week')
-  fixed.colnames = colnames(dataset)[13:317]
-  #block.start = list(22:24,27:29,32:34,37:39,42:44,47:49)
-  block.start = c(22,27,32,37,42,47)
-  for(a in 1:length(block.start)){
-    block.start[a] = block.start[a] - 12
-  }
-  #lat.start = list(52:87)
-  lat.start = c(52,90,128,166,204,242,280)
+  colnames(dataset)[1:10] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
+  fixed.colnames = colnames(dataset)[12:81]
+  lat.start = c(18,50)
   for(a in 1:length(lat.start)){
-    lat.start[a] = lat.start[a] - 12
+    lat.start[a] = lat.start[a] - 11
   }
-  block.sub = FALSE
   lat.sub = FALSE
-  block.num = 0
   lat.num = 0
   for(a in 1:length(fixed.colnames)){
     fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a], ignore.case=FALSE)
-    fixed.colnames[a] = gsub("X12", "Twelve", fixed.colnames[a],ignore.case=FALSE)
     fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a],ignore.case=FALSE)
-    if(is.element(a,block.start) == TRUE){
-      block.sub = TRUE
-      block.num = 1
-    }
     if(is.element(a,lat.start) == TRUE){
       lat.sub = TRUE
       lat.num = 1
-    }
-    if(block.sub == TRUE){
-      if((block.num <= 3) & (block.num > 1)){
-        fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
-        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = "")
-        block.num = block.num + 1
-      }else if(block.num == 1){
-        fixed.colnames[a] = paste(fixed.colnames[a], as.character(block.num), sep = ".")
-        block.num = block.num + 1
-      }else{
-        block.sub = FALSE
-        block.num = 0
-      }
     }
     if(lat.sub == TRUE){
       if((lat.num <= 36) & (lat.num > 1)){
@@ -277,8 +300,65 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
   }
-  colnames(dataset)[13:317] = fixed.colnames
+  colnames(dataset)[12:81] = fixed.colnames
   col.list.spacefix = c(1,2,3,4,5,6,7,8,10,11)
+  for(a in col.list.spacefix){
+    dataset[ ,a] = gsub(" ", "", dataset[ ,a])
+  }
+  if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) > 2)){
+    geno.long = TRUE
+    position.vec = c(1:5,8:13,14:33)
+  }else if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) == 2)){
+    geno.long = FALSE
+    position.vec = c(1:5,6:7,14:33)
+  }
+  for(a in position.vec){
+    if((a >= 1) & (a <= 2)){
+      col.num = 3
+    }else if((a >=3) & (a <= 5)){
+      col.num = 4
+    }else if((a >=6) & (a <= 13)){
+      col.num = 5
+    }else if((a >=14) & (a <= 15)){
+      col.num = 6
+    }else if((a >=16) & (a <= 18)){
+      col.num = 7
+    }else if((a >= 19)){
+      col.num = 8
+    }
+    temp.badnames = as.vector(unlist(bad.names[a]))
+    temp.goodname = good.names[a]
+    for(b in 1:nrow(dataset)){
+      if(isTRUE(is.element(dataset[b,col.num],temp.badnames))){
+        dataset[b,col.num] = temp.goodname
+      }
+      if(isTRUE(dataset[b,col.num] == 'W')){
+        if(isTRUE(dataset[b,4] == "APP-PS1")){
+          dataset[b,col.num] = good.list[8]
+        }else if(isTRUE(dataset[b,4] == "5xFAD")){
+          dataset[b,col.num] = good.list[10]
+        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
+          dataset[b,col.num] = good.list[12]
+        }
+      }
+      if(isTRUE(dataset[b,col.num] == 'T')){
+        if(isTRUE(dataset[b,4] == "APP-PS1")){
+          dataset[b,col.num] = good.list[9]
+        }else if(isTRUE(dataset[b,4] == "5xFAD")){
+          dataset[b,col.num] = good.list[11]
+        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
+          dataset[b,col.num] = good.list[13]
+        }
+      }
+    }
+  }
+  return(dataset)
+}
+
+# Fix Naming Rules - Pretrain #
+Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad.list){
+  colnames(dataset) = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
+  col.list.spacefix = c(1,2,3,4,5,6,7,8,9,10)
   for(a in col.list.spacefix){
     dataset[ ,a] = gsub(" ", "", dataset[ ,a])
   }
@@ -332,67 +412,10 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
   return(dataset)
 }
 
-# Fix Naming Rules - Pretrain #
-Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad.list){
-  colnames(dataset) = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
-  col.list.spacefix = c(1,2,3,4,5,6,7,8,10)
-  for(a in col.list.spacefix){
-    dataset[ ,a] = gsub(" ", "", dataset[ ,a])
-  }
-  if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) > 2)){
-    geno.long = TRUE
-    position.vec = c(1:5,8:13,14:32)
-  }else if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) == 2)){
-    geno.long = FALSE
-    position.vec = c(1:5,6:7,14:32)
-  }
-  for(a in position.vec){
-    if((a >= 1) & (a <= 2)){
-      col.num = 2
-    }else if((a >=3) & (a <= 5)){
-      col.num = 3
-    }else if((a >=6) & (a <= 13)){
-      col.num = 4
-    }else if((a >=14) & (a <= 15)){
-      col.num = 5
-    }else if((a >=16) & (a <= 18)){
-      col.num = 6
-    }else if((a >= 19)){
-      col.num = 7
-    }
-    temp.badnames = as.vector(unlist(bad.names[a]))
-    temp.goodname = good.names[a]
-    for(b in 1:nrow(dataset)){
-      if(isTRUE(is.element(dataset[b,col.num],temp.badnames))){
-        dataset[b,col.num] = temp.goodname
-      }
-      if(isTRUE(dataset[b,col.num] == 'W')){
-        if(isTRUE(dataset[b,4] == "APP-PS1")){
-          dataset[b,col.num] = good.list[8]
-        }else if(isTRUE(dataset[b,4] == "5xFAD")){
-          dataset[b,col.num] = good.list[10]
-        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
-          dataset[b,col.num] = good.list[12]
-        }
-      }
-      if(isTRUE(dataset[b,col.num] == 'T')){
-        if(isTRUE(dataset[b,4] == "APP-PS1")){
-          dataset[b,col.num] = good.list[9]
-        }else if(isTRUE(dataset[b,4] == "5xFAD")){
-          dataset[b,col.num] = good.list[11]
-        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
-          dataset[b,col.num] = good.list[13]
-        }
-      }
-    }
-  }
-  return(dataset)
-}
-
 # Fix Date #
 Datefix.Function <- function(data, colnum){
   a<-list()
-  formats = c('%Y%m%d','%m/%d/%Y')
+  formats = c('%Y%m%d','%m/%d/%Y','%Y-%m-%d %H:%M')
   for(i in 1:length(formats)){
     a[[i]]<- as.Date(as.character(data[ ,colnum]),format=formats[i])
     a[[1]][!is.na(a[[i]])]<-a[[i]][!is.na(a[[i]])]
@@ -433,15 +456,6 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
   return(dataset)
 }
 
-# Aggregate Function #
-Aggregate.Function = function(dataset){
-  agg.list = list(dataset$AnimalID, dataset$TestSite, dataset$Mouse.Strain, dataset$Genotype, dataset$Sex, dataset$Age.Months, dataset$Task, dataset$Week)
-  agg.data = aggregate(dataset, by= agg.list, FUN=mean, na.rm = TRUE)
-  agg.data[ ,10:16] = agg.data[ ,1:7]
-  agg.data[ ,19] = agg.data[ ,8]
-  agg.data[ ,c(1:9,18)] = NULL
-  return(agg.data)
-}
 
 ############################################################################################
 
@@ -456,7 +470,7 @@ name.data.acquisition = Naming.MainAcq.Function(raw.data.acquisition)
 name.data.main = Naming.MainAcq.Function(raw.data.main)
 
 ## Fix Dates for Files ##
-date.data.pretrain = Datefix.Function(name.data.pretrain,8)
+date.data.pretrain = Datefix.Function(name.data.pretrain,9)
 date.data.acquisition = Datefix.Function(name.data.acquisition,9)
 date.data.main = Datefix.Function(name.data.main,9)
 
@@ -469,12 +483,8 @@ qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
 
-## Aggregate Main File ##
-
-qc.data.main.agg = Aggregate.Function(qc.data.main)
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PAL Pretrain QC Sept 27 2017.csv")
-write.csv(qc.data.acquisition, "Weston PAL Acquisition QC Sept 27 2017.csv")
-write.csv(qc.data.main, "Weston PAL Main Task QC Sept 27 2017.csv")
-write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC Sept 27 2017.csv")
+write.csv(qc.data.pretrain, "Weston PD Pretrain QC Sept 29 2017.csv")
+write.csv(qc.data.acquisition, "Weston PD Acquisition QC Sept 29 2017.csv")
+write.csv(qc.data.main, "Weston PD Basline Reversal QC Sept 29 2017.csv")

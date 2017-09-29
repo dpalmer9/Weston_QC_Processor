@@ -176,7 +176,7 @@ QC.Acq.Function = function(dataset, good.names=good.list){
   new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
   new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
   new.data = rbind(new.data.4m, new.data.10m)
-  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
+  new.data = new.data[which((((new.data[ ,15] == 36 ) | (new.data[ ,15] == 30 )) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 36 ) & (new.data[ ,14] > 3599))), ]
   return(new.data)
 }
 # QC Function PAL Main #
@@ -213,7 +213,7 @@ QC.Main.Function = function(dataset, good.names=good.list){
   new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% good.10m, ]
   new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% good.4m, ]
   new.data = rbind(new.data.4m, new.data.10m)
-  new.data = new.data[which(((new.data[ ,15] == 36) |(new.data[ ,15] == 30) ) & (new.data[ ,14] < 3600)), ]
+  new.data = new.data[which((((new.data[ ,15] == 36 ) | (new.data[ ,15] == 30 )) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 36 ) & (new.data[ ,14] > 3599))), ]
   return(new.data)
 }
 
@@ -418,14 +418,14 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
       dataset[b,mean.col] = lat.newmean
       dataset[b,std.col] = lat.newsd
     }
-    mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
-    mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
-    mean.mean = mean(mean.avg.data, na.rm=TRUE)
-    mean.iqd.upper = mean.mean + (IQD.num * mean.iqr)
-    mean.iqd.lower = mean.mean - (IQD.num & mean.iqr)
-    mean.avg.data[mean.avg.data < mean.iqd.lower] = NA
-    mean.avg.data[mean.avg.data > mean.iqd.upper] = NA
-    dataset[ ,mean.col] = mean.avg.data
+    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
+    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+    #mean.mean = mean(mean.avg.data, na.rm=TRUE)
+    #mean.iqd.upper = mean.mean + (IQD.num * mean.iqr)
+    #mean.iqd.lower = mean.mean - (IQD.num & mean.iqr)
+    #mean.avg.data[mean.avg.data < mean.iqd.lower] = NA
+    #mean.avg.data[mean.avg.data > mean.iqd.upper] = NA
+    #dataset[ ,mean.col] = mean.avg.data
   }
   return(dataset)
 }
@@ -466,12 +466,17 @@ qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
 
+## Lat Fix ##
+qc.data.acquisition.lat = LatFix.MainAcq.Function(qc.data.acquisition,3)
+qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
+
 ## Aggregate Main File ##
 
-qc.data.main.agg = Aggregate.Function(qc.data.main)
+qc.data.main.agg = Aggregate.Function(qc.data.main.lat)
+
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PAL Pretrain QC Sept 27 2017.csv")
-write.csv(qc.data.acquisition, "Weston PAL Acquisition QC Sept 27 2017.csv")
-write.csv(qc.data.main, "Weston PAL Main Task QC Sept 27 2017.csv")
-write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC Sept 27 2017.csv")
+write.csv(qc.data.pretrain, "Weston PAL Pretrain QC NEWLATENCY Sept 27 2017.csv")
+write.csv(qc.data.acquisition, "Weston PAL Acquisition QC NEWLATENCY  Sept 27 2017.csv")
+write.csv(qc.data.main.lat, "Weston PAL Main Task QC NEWLATENCY Sept 27 2017.csv")
+write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC NEWLATENCY Sept 27 2017.csv")
