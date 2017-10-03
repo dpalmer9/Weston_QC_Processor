@@ -490,5 +490,5 @@ qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
 
 ## Save Raw Data Files ##
 write.csv(qc.data.pretrain, "Weston PD Pretrain QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.acquisition, "Weston PD Acquisition QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.main, "Weston PD Basline Reversal QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.acquisition.lat, "Weston PD Acquisition QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.main.lat, "Weston PD Basline Reversal QC Oct 3 2017 NEW LATENCY.csv")

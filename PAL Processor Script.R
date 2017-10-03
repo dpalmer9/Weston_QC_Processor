@@ -29,15 +29,15 @@ bad.list$bad.app = c('APPPS1', ' APPPS1') #3
 bad.list$bad.5x = c('5FAD',' 5FAD') #4
 bad.list$bad.3x = c('3XTG', ' 3XTG', '3xTG','3TG') #5
 
-bad.list$bad.wt = c(' w', 'w') #6
-bad.list$bad.tg = c(' t', 't') #7
+bad.list$bad.wt = c(' w', 'w','W', ' W') #6
+bad.list$bad.tg = c(' t', 't','T', ' T') #7
 
-bad.list$bad.app.wt = c(' w', 'w') #8 
-bad.list$bad.app.tg = c(' t', 't') #9
-bad.list$bad.5x.wt = c(' w', 'w') #10
-bad.list$bad.5x.tg = c(' t', 't') #11
-bad.list$bad.3x.wt = c(' w', 'w') #12
-bad.list$bad.3x.tg = c(' t', 't') #13
+bad.list$bad.app.wt = c(' w', 'w','W') #8 
+bad.list$bad.app.tg = c(' t', 't','T') #9
+bad.list$bad.5x.wt = c(' w', 'w','W') #10
+bad.list$bad.5x.tg = c(' t', 't','T') #11
+bad.list$bad.3x.wt = c(' w', 'w','W') #12
+bad.list$bad.3x.tg = c(' t', 't','T') #13
 
 bad.list$bad.female = c('F') #14
 bad.list$bad.male = c('M') #15
@@ -96,7 +96,7 @@ good.list[28] = 'sPAL Acquisition 1'
 good.list[29] = 'dPAL1'
 good.list[30] = 'dPAL2'
 good.list[31] = 'dPAL3'
-good.list[32] = 'dPAL4'
+good.list[32] = 'sPAL1'
 
 # Column Match to Name Check #
 lookup.list = list()
@@ -364,20 +364,20 @@ Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad
         dataset[b,col.num] = temp.goodname
       }
       if(isTRUE(dataset[b,col.num] == 'W')){
-        if(isTRUE(dataset[b,4] == "APP-PS1")){
+        if(isTRUE(dataset[b,3] == "APP-PS1")){
           dataset[b,col.num] = good.list[8]
-        }else if(isTRUE(dataset[b,4] == "5xFAD")){
+        }else if(isTRUE(dataset[b,3] == "5xFAD")){
           dataset[b,col.num] = good.list[10]
-        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
+        }else if(isTRUE(dataset[b,3] == "3xTG-AD")){
           dataset[b,col.num] = good.list[12]
         }
       }
       if(isTRUE(dataset[b,col.num] == 'T')){
-        if(isTRUE(dataset[b,4] == "APP-PS1")){
+        if(isTRUE(dataset[b,3] == "APP-PS1")){
           dataset[b,col.num] = good.list[9]
-        }else if(isTRUE(dataset[b,4] == "5xFAD")){
+        }else if(isTRUE(dataset[b,3] == "5xFAD")){
           dataset[b,col.num] = good.list[11]
-        }else if(isTRUE(dataset[b,4] == "3xTG-AD")){
+        }else if(isTRUE(dataset[b,3] == "3xTG-AD")){
           dataset[b,col.num] = good.list[13]
         }
       }
@@ -476,7 +476,7 @@ qc.data.main.agg = Aggregate.Function(qc.data.main.lat)
 
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PAL Pretrain QC NEWLATENCY Sept 27 2017.csv")
-write.csv(qc.data.acquisition, "Weston PAL Acquisition QC NEWLATENCY  Sept 27 2017.csv")
-write.csv(qc.data.main.lat, "Weston PAL Main Task QC NEWLATENCY Sept 27 2017.csv")
-write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC NEWLATENCY Sept 27 2017.csv")
+write.csv(qc.data.pretrain, "Weston PAL Pretrain QC NEWLATENCY Oct 3 2017.csv")
+write.csv(qc.data.acquisition.lat, "Weston PAL Acquisition QC NEWLATENCY  Oct 3 2017.csv")
+write.csv(qc.data.main.lat, "Weston PAL Main Task QC NEWLATENCY Oct 3 2017.csv")
+write.csv(qc.data.main.agg, "Weston PAL Main task Aggregated QC NEWLATENCY Oct 3 2017.csv")
