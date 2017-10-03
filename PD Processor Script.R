@@ -426,9 +426,9 @@ Datefix.Function <- function(data, colnum){
 
 # Fix Latency Calc #
 LatFix.MainAcq.Function = function(dataset,IQD.num){
-  mean.colnums = c(126,164,202,240,278,316)
+  mean.colnums = c(48,80)
   for(a in 1:length(mean.colnums)){
-    lat.raw.cols = c((mean.colnums[a] - 36):(mean.colnums[a] - 1))
+    lat.raw.cols = c((mean.colnums[a] - 30):(mean.colnums[a] - 1))
     mean.col = mean.colnums[a]
     std.col = mean.colnums[a] + 1
     for(b in 1:nrow(dataset)){
@@ -483,8 +483,12 @@ qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
 
+## Run LatFix ##
+qc.data.acquisition.lat = LatFix.MainAcq.Function(qc.data.acquisition,3)
+qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
+
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PD Pretrain QC Sept 29 2017.csv")
-write.csv(qc.data.acquisition, "Weston PD Acquisition QC Sept 29 2017.csv")
-write.csv(qc.data.main, "Weston PD Basline Reversal QC Sept 29 2017.csv")
+write.csv(qc.data.pretrain, "Weston PD Pretrain QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.acquisition, "Weston PD Acquisition QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.main, "Weston PD Basline Reversal QC Oct 3 2017 NEW LATENCY.csv")
