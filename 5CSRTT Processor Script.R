@@ -50,7 +50,7 @@ bad.list$bad.hab1 = c('Hab1') #19
 bad.list$bad.hab2 = c('Hab2') #20
 bad.list$bad.IT = c('5CSRTT_Initial_Touch_Training_v3') #21
 bad.list$bad.MT = c('5CSRTT_Must_Touch_Training_v2') #22
-bad.list$bad.MI = c('5CSRTT_Must_Initiate_Training_v1', ' 5CSRTT_Must_Initiate_training') #23
+bad.list$bad.MI = c('5CSRTT_Must_Initiate_Training_v1', ' 5CSRTT_Must_Initiate_training', '5CSRTT_Must_Initiate_training') #23
 bad.list$bad.punish = c('5CSRTT_Punish_Incorrect_Training_v3') #24
 
 bad.list$bad.t4 = c('4000ms') #25
@@ -136,7 +136,7 @@ QC.Pretrain.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.10m = as.vector(unlist(good.names[c(25:33)]))
+  good.10m = as.vector(unlist(good.names[c(25:30)]))
   new.data = new.data[which(new.data[ ,7] == "4"), ]
   new.data = new.data[!new.data[ ,8] %in% good.10m, ]
   return(new.data)
@@ -266,26 +266,35 @@ QC.Main.Function = function(dataset, good.names=good.list){
 }
 
 # Fix Naming Rules - Main & Acq #
-Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.list){
+Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.list,type){
+  probelist = c('Probe','probe','p',2,'P')
+  dataset[ ,1] = NULL
+  if(is.element(type,probelist) == TRUE){
+    dataset[ ,c(174,227)] = NULL
+  }
   colnames(dataset)[1:10] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
-  fixed.colnames = colnames(dataset)[12:81]
-  lat.start = c(18,50)
+  fixed.colnames = colnames(dataset)[12:227]
+  lat.start = c(19,71,123,175)
   for(a in 1:length(lat.start)){
     lat.start[a] = lat.start[a] - 11
   }
   lat.sub = FALSE
   lat.num = 0
   for(a in 1:length(fixed.colnames)){
-    fixed.colnames[a] = gsub("End.Summary...", "", fixed.colnames[a], ignore.case=FALSE)
-    fixed.colnames[a] = gsub("..s.", ".", fixed.colnames[a],ignore.case=FALSE)
+    fixed.colnames[a] = gsub("Threshold...", "", fixed.colnames[a], ignore.case=FALSE)
+    fixed.colnames[a] = gsub("Trial.Analysis...", "", fixed.colnames[a], ignore.case=FALSE)
     if(is.element(a,lat.start) == TRUE){
       lat.sub = TRUE
       lat.num = 1
     }
     if(lat.sub == TRUE){
-      if((lat.num <= 36) & (lat.num > 1)){
+      if((lat.num <= 50) & (lat.num > 9)){
+        fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 3))
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = ".")
+        lat.num = lat.num + 1
+      }else if((lat.num <= 9) & (lat.num > 1)){
         fixed.colnames[a] = substr(fixed.colnames[a],1,(nchar(fixed.colnames[a]) - 2))
-        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = "")
+        fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = ".")
         lat.num = lat.num + 1
       }else if(lat.num == 1){
         fixed.colnames[a] = paste(fixed.colnames[a], as.character(lat.num), sep = ".")
@@ -353,17 +362,20 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
 
 # Fix Naming Rules - Pretrain #
 Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad.list){
+  dataset[ ,c(1,12,13)] = NULL
   colnames(dataset) = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
-  col.list.spacefix = c(1,2,3,4,5,6,7,8,9,10)
+  dataset = dataset[which(dataset[ ,8] != '5CSRTT_Habituation_1_'), ]
+  dataset = dataset[which(dataset[ ,8] != '5CSRTT_Habituation_2_'), ]
+  col.list.spacefix = c(1,2,3,4,5,6,7,8,10)
   for(a in col.list.spacefix){
     dataset[ ,a] = gsub(" ", "", dataset[ ,a])
   }
   if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) > 2)){
     geno.long = TRUE
-    position.vec = c(1:5,8:13,14:32)
+    position.vec = c(1:5,8:13,14:30)
   }else if(isTRUE(length(as.vector(unique(as.character(dataset[ ,5])))) == 2)){
     geno.long = FALSE
-    position.vec = c(1:5,6:7,14:32)
+    position.vec = c(1:5,6:7,14:30)
   }
   for(a in position.vec){
     if((a >= 1) & (a <= 2)){
@@ -456,14 +468,14 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
 ############################################################################################
 
 ## Collect Initial Dataset ##
-raw.data.pretrain = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\PD\\Weston Data PD Pretraining.csv')
-raw.data.acquisition = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\PD\\Weston Data PD Acquisition.csv')
-raw.data.main = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\PD\\Weston Data PD Baseline Reversal.csv')
+raw.data.pretrain = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\5CSRTT\\Weston Data 5CSRTT Pretraining.csv')
+raw.data.acquisition = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\5CSRTT\\Weston Data 5CSRTT Acquisition.csv')
+raw.data.main = read.csv('C:\\Users\\dpalmer\\Documents\\Weston_QC_Processor\\Data\\5CSRTT\\Weston Data 5CSRTT Probe.csv')
 
 ## Run Namecheck on Data ##
 name.data.pretrain = Naming.Pretrain.Function(raw.data.pretrain)
-name.data.acquisition = Naming.MainAcq.Function(raw.data.acquisition)
-name.data.main = Naming.MainAcq.Function(raw.data.main)
+name.data.acquisition = Naming.MainAcq.Function(raw.data.acquisition,type=1)
+name.data.main = Naming.MainAcq.Function(raw.data.main,type=2)
 
 ## Fix Dates for Files ##
 date.data.pretrain = Datefix.Function(name.data.pretrain,9)
@@ -485,6 +497,6 @@ qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
 
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PD Pretrain QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.acquisition.lat, "Weston PD Acquisition QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.main.lat, "Weston PD Basline Reversal QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.pretrain, "Weston 5CSRTT Pretrain QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.acquisition.lat, "Weston 5CSRTT Acquisition QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.main.lat, "Weston 5CSRTT Probe QC Oct 3 2017 NEW LATENCY.csv")
