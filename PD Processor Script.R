@@ -266,7 +266,7 @@ QC.Main.Function = function(dataset, good.names=good.list){
   new.data[ ,14] = gsub(",", "", new.data[ ,14])
   new.data[ ,14] = as.numeric(new.data[ ,14])
   new.data2 = new.data[which(((new.data[ ,15] == 30 ) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 30 ) & (new.data[ ,14] > 3599))), ]
-  return(new.data)
+  return(new.data2)
 }
 
 # Fix Naming Rules - Main & Acq #

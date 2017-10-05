@@ -53,8 +53,8 @@ bad.list$bad.MT = c('5CSRTT_Must_Touch_Training_v2') #22
 bad.list$bad.MI = c('5CSRTT_Must_Initiate_Training_v1', ' 5CSRTT_Must_Initiate_training', '5CSRTT_Must_Initiate_training') #23
 bad.list$bad.punish = c('5CSRTT_Punish_Incorrect_Training_v3') #24
 
-bad.list$bad.t4 = c('4000ms') #25
-bad.list$bad.t2 = c('2000ms') #26
+bad.list$bad.t4 = c('4000ms','5CSRTT_4000ms_Var1') #25
+bad.list$bad.t2 = c('2000ms', '5CSRTT_2000ms_Var1') #26
 
 bad.list$bad.pr15 = c('1500ms') #27
 bad.list$bad.pr10 = c('1000ms') #28
@@ -144,6 +144,7 @@ QC.Pretrain.Function = function(dataset, good.names=good.list){
 
 # QC Function PAL Acq #
 QC.Acq.Function = function(dataset, good.names=good.list){
+  dataset = dataset[which(dataset[ ,7] != '13_15'), ]
   new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
   colnames(new.data) = colnames(dataset)
   initial.ID.list = as.vector(unique(as.character(dataset[ ,2])))
@@ -168,40 +169,37 @@ QC.Acq.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.4m = as.vector(unlist(good.names[c(25)]))
-  good.7m = as.vector(unlist(good.names[c(26)]))
-  good.10m = as.vector(unlist(good.names[c(27)]))
-  new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
-  new.data.7m = new.data[which(new.data[ ,7] == "7"), ]
-  new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
-  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% c(good.7m,good.10m), ]
-  new.data.7m = new.data.7m[!new.data.7m[ ,8] %in% c(good.4m,good.10m), ]
-  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% c(good.4m,good.7m), ]
-  new.data = rbind(new.data.4m, new.data.7m)
-  new.data = rbind(new.data,new.data.10m)
-  new.data = new.data[which(((new.data[ ,15] == 30 ) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 30 ) & (new.data[ ,14] > 3599))), ]
+  new.data = new.data[which(((new.data[ ,14] == 50 ) & (new.data[ ,13] < 3600)) | ((new.data[ ,14] < 50 ) & (new.data[ ,13] > 3599))), ]
   final.data = as.data.frame(matrix(nrow=0,ncol=ncol(new.data)))
   for(a in 1:length(initial.ID.list)){
     temp.id = initial.ID.list[a]
     temp.data = new.data[which(new.data[ ,2] == temp.id), ]
-    temp.4m = temp.data[which(temp.data[ ,7] == "4"), ]
-    temp.7m = temp.data[which(temp.data[ ,7] == "7"), ]
-    temp.10m = temp.data[which(temp.data[ ,7] == "10"), ]
-    criteria.check.func = function(dataset){
+    temp.4sec = temp.data[which(temp.data[ ,8] == "4"), ]
+    temp.2sec = temp.data[which(temp.data[ ,8] == "2"), ]
+    criteria.check.func = function(dataset,trainstim){
       date.org = dataset[order(dataset[ ,9]), ]
       if(nrow(dataset) > 0){
         checked.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
         criteria.count = 0
         for(b in 1:nrow(date.org)){
-          if(criteria.count == 2){
+          if(criteria.count == 3){
             break
           }
-          current.trials = date.org[b,15]
-          current.acc = date.org[b,17]
-          if(isTRUE((current.trials == 30) & (current.acc >= 80))){
-            criteria.count = criteria.count + 1
-          }else{
-            criteria.count = 0
+          current.trials = date.org[b,14]
+          current.acc = date.org[b,15]
+          current.omit = date.org[b,16]
+          if(trainstim == 4){
+            if(isTRUE((current.trials >= 30) & (current.acc >= 80) & (current.omit <= 20))){
+              criteria.count = criteria.count + 1
+            }else{
+              criteria.count = 0
+            }
+          }else if(trainstim == 2){
+            if(isTRUE((current.trials == 50) & (current.acc >= 80) & (current.omit <= 20))){
+              criteria.count = criteria.count + 1
+            }else{
+              criteria.count = 0
+            }
           }
           checked.data = rbind(checked.data,date.org[b, ])
         }
@@ -210,14 +208,12 @@ QC.Acq.Function = function(dataset, good.names=good.list){
         return(date.org)
       }
     }
-    temp.4m = criteria.check.func(temp.4m)
-    temp.7m = criteria.check.func(temp.7m)
-    temp.10m = criteria.check.func(temp.10m)
-    temp.data = rbind(temp.4m,temp.7m)
-    temp.data = rbind(temp.data,temp.10m)
+    temp.4sec = criteria.check.func(temp.4sec,4)
+    temp.2sec = criteria.check.func(temp.2sec,2)
+    temp.data = rbind(temp.4sec,temp.2sec)
     final.data = rbind(final.data,temp.data)
   }
-  
+
   return(final.data)
 }
 # QC Function PAL Main #
@@ -225,17 +221,17 @@ QC.Acq.Function = function(dataset, good.names=good.list){
 QC.Main.Function = function(dataset, good.names=good.list){
   new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
   colnames(new.data) = colnames(dataset)
-  initial.ID.list = as.vector(unique(as.character(dataset[ ,3])))
+  initial.ID.list = as.vector(unique(as.character(dataset[ ,2])))
   for(a in 1:length(initial.ID.list)){
     temp.id = initial.ID.list[a]
-    temp.data = dataset[which(dataset[ ,3] == temp.id), ]
+    temp.data = dataset[which(dataset[ ,2] == temp.id), ]
     temp.data = temp.data[order(dataset$Date), ]
-    temp.data.dateunique = as.vector(unique(temp.data[ ,10]))
-    if(length(temp.data.dateunique) != length(temp.data[ ,10])){
+    temp.data.dateunique = as.vector(unique(temp.data[ ,9]))
+    if(length(temp.data.dateunique) != length(temp.data[ ,9])){
       temp.data.2 = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
       colnames(temp.data.2) = temp.data
       for(b in 1:length(temp.data.dateunique)){
-        data.check = temp.data[which(temp.data[ ,10] == temp.data.dateunique[b]), ]
+        data.check = temp.data[which(temp.data[ ,9] == temp.data.dateunique[b]), ]
         if(nrow(data.check) > 1){
           data.check = data.check[1, ]
           temp.data.2 = rbind(temp.data.2,data.check)
@@ -247,22 +243,43 @@ QC.Main.Function = function(dataset, good.names=good.list){
     }
     new.data = rbind(new.data, temp.data)
   }
-  good.4m = as.vector(unlist(good.names[c(28,31)]))
-  good.7m = as.vector(unlist(good.names[c(29,32)]))
-  good.10m = as.vector(unlist(good.names[c(30,33)]))
-  new.data.4m = new.data[which(new.data[ ,7] == "4"), ]
-  new.data.7m = new.data[which(new.data[ ,7] == "7"), ]
-  new.data.10m = new.data[which(new.data[ ,7] == "10"), ]
-  new.data.4m = new.data.4m[!new.data.4m[ ,8] %in% c(good.7m,good.10m), ]
-  new.data.7m = new.data.7m[!new.data.7m[ ,8] %in% c(good.4m,good.10m), ]
-  new.data.10m = new.data.10m[!new.data.10m[ ,8] %in% c(good.4m,good.7m), ]
-  new.data = rbind(new.data.4m, new.data.7m)
-  new.data = rbind(new.data,new.data.10m)
-  new.data[ ,14] = as.character(new.data[ ,14])
-  new.data[ ,14] = gsub(",", "", new.data[ ,14])
-  new.data[ ,14] = as.numeric(new.data[ ,14])
-  new.data2 = new.data[which(((new.data[ ,15] == 30 ) & (new.data[ ,14] < 3600)) | ((new.data[ ,15] < 30 ) & (new.data[ ,14] > 3599))), ]
-  return(new.data)
+  new.data2 = new.data[which(((new.data[ ,14] == 50 ) & (new.data[ ,13] < 3600)) | ((new.data[ ,14] < 50 ) & (new.data[ ,13] > 3599))), ]
+  final.data = as.data.frame(matrix(ncol=ncol(new.data2),nrow=0))
+  colnames(final.data) = colnames(new.data2)
+  for(a in 1:length(initial.ID.list)){
+    temp.data = new.data2[which(new.data2[ ,2] == initial.ID.list[a]), ]
+    temp.4m = temp.data[which(temp.data[ ,7] == "4"), ]
+    temp.7m = temp.data[which(temp.data[ ,7] == "7"), ]
+    temp.10m = temp.data[which(temp.data[ ,7] == "10"), ]
+    probe.check.func = function(dataset){
+      probe.vec = c('1.5','1','0.8','0.6')
+      count.vec = c()
+      count.vec[1] = nrow(dataset[which(dataset[ ,8] == probe.vec[1]), ])
+      count.vec[2] = nrow(dataset[which(dataset[ ,8] == probe.vec[2]), ])
+      count.vec[3] = nrow(dataset[which(dataset[ ,8] == probe.vec[3]), ])
+      count.vec[4] = nrow(dataset[which(dataset[ ,8] == probe.vec[4]), ])
+      return.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+      colnames(return.data) = colnames(dataset)
+      for(b in 1:4){
+        if(count.vec[b] > 2){
+          probe.data = dataset[which(dataset[ ,8] == probe.vec[b]), ]
+          probe.data = probe.data[order(probe.data$Date), ]
+          probe.data = probe.data[c(1:2), ]
+        }else{
+          probe.data = dataset[which(dataset[ ,8] == probe.vec[b]), ]
+        }
+        return.data = rbind(return.data,probe.data)
+      }
+      return(return.data)
+    }
+    check.4m = probe.check.func(temp.4m)
+    check.7m = probe.check.func(temp.7m)
+    check.10m = probe.check.func(temp.10m)
+    final.id.data = rbind(check.4m,check.7m)
+    final.id.data = rbind(final.id.data,check.10m)
+    final.data = rbind(final.data,final.id.data)
+  }
+  return(final.data)
 }
 
 # Fix Naming Rules - Main & Acq #
@@ -270,10 +287,10 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
   probelist = c('Probe','probe','p',2,'P')
   dataset[ ,1] = NULL
   if(is.element(type,probelist) == TRUE){
-    dataset[ ,c(174,227)] = NULL
+    dataset[ ,c(175,227)] = NULL
   }
-  colnames(dataset)[1:10] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Task','Date','Day')
-  fixed.colnames = colnames(dataset)[12:227]
+  colnames(dataset)[1:10] = c('Database','AnimalID','TestSite','Mouse.Strain','Genotype','Sex','Age.Months','Stimulus.Length','Date','Day')
+  fixed.colnames = colnames(dataset)[12:226]
   lat.start = c(19,71,123,175)
   for(a in 1:length(lat.start)){
     lat.start[a] = lat.start[a] - 11
@@ -305,7 +322,7 @@ Naming.MainAcq.Function = function(dataset, good.names=good.list, bad.names=bad.
       }
     }
   }
-  colnames(dataset)[12:81] = fixed.colnames
+  colnames(dataset)[12:226] = fixed.colnames
   col.list.spacefix = c(1,2,3,4,5,6,7,8,10,11)
   for(a in col.list.spacefix){
     dataset[ ,a] = gsub(" ", "", dataset[ ,a])
@@ -423,13 +440,35 @@ Naming.Pretrain.Function = function(dataset, good.names=good.list, bad.names=bad
 # Fix Date #
 Datefix.Function <- function(data, colnum){
   a<-list()
-  formats = c('%Y%m%d','%m/%d/%Y','%Y-%m-%d %H:%M')
+  formats = c('%Y%m%d','%m/%d/%Y','%Y-%m-%d %H:%M','%Y-%m-%d')
   for(i in 1:length(formats)){
     a[[i]]<- as.Date(as.character(data[ ,colnum]),format=formats[i])
     a[[1]][!is.na(a[[i]])]<-a[[i]][!is.na(a[[i]])]
   }
   data[ ,colnum] = a
   return(data)
+}
+
+Datefix.Conversion.Function = function(dataset,colnum){
+  bad.start.date = as.Date('1899-12-30',format = "%Y-%m-%d")
+  dataset[ ,colnum] = as.character(dataset[ ,colnum])
+  new.list = c()
+  for(a in 1:nrow(dataset)){
+    curr.value = dataset[a,colnum]
+    if(isTRUE(grepl("/",curr.value))){
+      dataset[a,colnum] = as.character(curr.value)
+    }else{
+      #fixed.value = bad.start.date + as.numeric(curr.value)
+      dataset[a,colnum] = as.character(as.Date.numeric(as.numeric(curr.value),origin=bad.start.date))
+    }
+  }
+  return(dataset)
+}
+# Fix Latency Decimal #
+LatFix.Decimal.MainAcq.Function = function(dataset){
+  fix.cols = c(123:226)
+  dataset[ ,fix.cols] = apply(dataset[ ,fix.cols],c(1,2), function(x) as.numeric(x)/100000)
+  return(dataset)
 }
 
 # Fix Latency Calc #
@@ -465,6 +504,49 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
 }
 
 
+Vigilance.Calc.Function = function(dataset,binsize){
+  acc.start = 13
+  omission.start = 65
+  total.bins = 50 / binsize
+  new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
+  bin.num = 1
+  for(a in 1:total.bins){
+    acc.col = a
+    om.col = a + total.bins
+    for(b in 1:nrow(dataset)){
+      acc.list = as.vector(dataset[b,c(acc.start:(acc.start + binsize - 1))])
+      om.list = as.vector(dataset[b,c(omission.start:(omission.start + binsize - 1))])
+      acc.bin = 0
+      om.bin = 0
+      if(a == 1){
+        start.acc = 0
+        start.om = 0
+      }else{
+        start.acc = dataset[b,(acc.start - 1)]
+        start.om = dataset[b,(omission.start - 1)]
+      }
+      acc.track = c()
+      om.track = c()
+      for(c in 1:(binsize)){
+        curr.acc = acc.list[c]
+        curr.om = om.list[c]
+        if(isTRUE(curr.acc > start.acc)){
+          acc.bin = acc.bin + 1
+        }else if(isTRUE(curr.om > start.om)){
+          om.bin = om.bin + 1
+        }
+        start.acc = curr.acc
+        start.om = curr.om
+      }
+      acc.bin = acc.bin / (binsize - om.bin)
+      om.bin = om.bin / binsize
+      new.data[b,acc.col] = acc.bin
+      new.data[b,om.col] = om.bin
+    }
+  }
+  return(new.data)
+}
+
 ############################################################################################
 
 ## Collect Initial Dataset ##
@@ -479,8 +561,10 @@ name.data.main = Naming.MainAcq.Function(raw.data.main,type=2)
 
 ## Fix Dates for Files ##
 date.data.pretrain = Datefix.Function(name.data.pretrain,9)
-date.data.acquisition = Datefix.Function(name.data.acquisition,9)
-date.data.main = Datefix.Function(name.data.main,9)
+date.data.acquisition = Datefix.Conversion.Function(name.data.acquisition,9)
+date.data.acquisition = Datefix.Function(date.data.acquisition,9)
+date.data.main = Datefix.Conversion.Function(name.data.main,9)
+date.data.main = Datefix.Function(date.data.main,9)
 
 ## Run QC Analysis
 qc.data.pretrain = QC.Pretrain.Function(date.data.pretrain)
@@ -491,7 +575,11 @@ qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
 
+## Split Main Data ##
+qc.data.mainprobe = qc.data.main[ ,c(1:18,123:226)]
+qc.data.mainvigilance = qc.data.main[ ,c(1:12,19:122)]
 ## Run LatFix ##
+
 qc.data.acquisition.lat = LatFix.MainAcq.Function(qc.data.acquisition,3)
 qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
 
