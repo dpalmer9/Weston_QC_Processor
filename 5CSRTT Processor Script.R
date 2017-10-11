@@ -465,25 +465,24 @@ Datefix.Conversion.Function = function(dataset,colnum){
   return(dataset)
 }
 # Fix Latency Decimal #
-LatFix.Decimal.MainAcq.Function = function(dataset){
-  fix.cols = c(123:226)
+LatFix.Decimal.MainAcq.Function = function(dataset,fix.cols){
   dataset[ ,fix.cols] = apply(dataset[ ,fix.cols],c(1,2), function(x) as.numeric(x)/100000)
   return(dataset)
 }
 
 # Fix Latency Calc #
-LatFix.MainAcq.Function = function(dataset,IQD.num){
-  mean.colnums = c(48,80)
+LatFix.Acq.Function = function(dataset,IQD.num){
+  mean.colnums = c(173,225)
   for(a in 1:length(mean.colnums)){
-    lat.raw.cols = c((mean.colnums[a] - 30):(mean.colnums[a] - 1))
+    lat.raw.cols = c((mean.colnums[a] - 50):(mean.colnums[a] - 1))
     mean.col = mean.colnums[a]
     std.col = mean.colnums[a] + 1
     for(b in 1:nrow(dataset)){
       lat.data = as.vector(as.numeric(dataset[b,lat.raw.cols]))
       lat.iqr = IQR(lat.data,na.rm=TRUE)
-      lat.mean = mean(lat.data, na.rm=TRUE)
-      lat.iqd.upper = lat.mean + (IQD.num * lat.iqr)
-      lat.iqd.lower = lat.mean - (IQD.num * lat.iqr)
+      lat.iqr.quartile = quantile(lat.data,na.rm=TRUE)
+      lat.iqd.upper = lat.iqr.quartile[4] + (IQD.num * lat.iqr)
+      lat.iqd.lower = lat.iqr.quartile[2] - (IQD.num * lat.iqr)
       lat.data = lat.data[lat.data > lat.iqd.lower]
       lat.data = lat.data[lat.data < lat.iqd.upper]
       lat.newmean = mean(lat.data, na.rm=TRUE)
@@ -491,20 +490,83 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
       dataset[b,mean.col] = lat.newmean
       dataset[b,std.col] = lat.newsd
     }
-    mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
-    mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
-    mean.mean = mean(mean.avg.data, na.rm=TRUE)
-    mean.iqd.upper = mean.mean + (IQD.num * mean.iqr)
-    mean.iqd.lower = mean.mean - (IQD.num & mean.iqr)
-    mean.avg.data[mean.avg.data < mean.iqd.lower] = NA
-    mean.avg.data[mean.avg.data > mean.iqd.upper] = NA
-    dataset[ ,mean.col] = mean.avg.data
+    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
+    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+    #mean.iqd.multiplied = mean.iqr * IQD.num
+    #mean.iqr.quartile = quartile(mean.avg.data,na.rm=TRUE)
+    #mean.iqr.quartile25 = as.numeric(mean.iqr.quartile[2])
+    #mean.iqr.quartile75 = as.numeric(mean.iqr.quartile[4])
+    #mean.avg.data[mean.avg.data < (mean.iqr.quartile25 * mean.iqd.multiplied)] = NA
+    #mean.avg.data[mean.avg.data > (mean.iqr.quartile75 * mean.iqd.multiplied)] = NA
+    #dataset[ ,mean.col] = mean.avg.data
   }
   return(dataset)
 }
 
+LatFix.Probe.Function = function(dataset,IQD.num){
+  mean.colnums = c(69,121)
+  for(a in 1:length(mean.colnums)){
+    lat.raw.cols = c((mean.colnums[a] - 50):(mean.colnums[a] - 1))
+    mean.col = mean.colnums[a]
+    std.col = mean.colnums[a] + 1
+    for(b in 1:nrow(dataset)){
+      lat.data = as.vector(as.numeric(dataset[b,lat.raw.cols]))
+      lat.iqr = IQR(lat.data,na.rm=TRUE)
+      lat.iqr.quartile = quantile(lat.data,na.rm=TRUE)
+      lat.iqd.upper = lat.iqr.quartile[4] + (IQD.num * lat.iqr)
+      lat.iqd.lower = lat.iqr.quartile[2] - (IQD.num * lat.iqr)
+      lat.data = lat.data[lat.data > lat.iqd.lower]
+      lat.data = lat.data[lat.data < lat.iqd.upper]
+      lat.newmean = mean(lat.data, na.rm=TRUE)
+      lat.newsd = sd(lat.data, na.rm=TRUE)
+      dataset[b,mean.col] = lat.newmean
+      dataset[b,std.col] = lat.newsd
+    }
+    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
+    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+    #mean.iqd.multiplied = mean.iqr * IQD.num
+    #mean.iqr.quartile = quartile(mean.avg.data,na.rm=TRUE)
+    #mean.iqr.quartile25 = as.numeric(mean.iqr.quartile[2])
+    #mean.iqr.quartile75 = as.numeric(mean.iqr.quartile[4])
+    #mean.avg.data[mean.avg.data < (mean.iqr.quartile25 * mean.iqd.multiplied)] = NA
+    #mean.avg.data[mean.avg.data > (mean.iqr.quartile75 * mean.iqd.multiplied)] = NA
+    #dataset[ ,mean.col] = mean.avg.data
+  }
+  return(dataset)
+}
+Vigilance.FixRaw.Function = function(dataset){
+  acc.range = 13:62
+  omission.range = 65:114
+  for(a in 1:nrow(dataset)){
+    acc.vec = as.vector(as.numeric(dataset[a,acc.range]))
+    acc.vec = acc.vec[!is.na(acc.vec)]
+    omission.vec = as.vector(as.numeric(dataset[a,omission.range]))
+    omission.vec = omission.vec[!is.na(omission.vec)]
+    acc.len = length(acc.vec)
+    omission.len = length(omission.vec)
+    if(isTRUE(acc.len < 50)){
+      acc.discrepancy = 50 - acc.len
+      acc.zerofill = c()
+      for(b in 1:acc.discrepancy){
+        acc.zerofill[b] = 0
+      }
+      acc.vec = c(acc.zerofill,acc.vec)
+      dataset[a,acc.range] = acc.vec
+    }
+    if(isTRUE(omission.len < 50)){
+      omission.discrepancy = 50 - omission.len
+      omission.zerofill = c()
+      for(b in 1:omission.discrepancy){
+        omission.zerofill[b] = 0
+      }
+      omission.vec = c(omission.zerofill,omission.vec)
+      dataset[a,omission.range] = omission.vec
+    }
+  }
+  return(dataset)
+}
 
-Vigilance.Calc.Function = function(dataset,binsize){
+Vigilance.Calc.Block.Function = function(dataset,binsize){
   acc.start = 13
   omission.start = 65
   total.bins = 50 / binsize
@@ -552,6 +614,51 @@ Vigilance.Calc.Function = function(dataset,binsize){
   return(final.data)
 }
 
+Vigilance.Calc.Average.Function = function(dataset,binsize){
+  acc.start = 13
+  omission.start = 65
+  total.bins = 50 / binsize
+  new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
+  bin.num = 1
+  for(a in 1:total.bins){
+    acc.col = a
+    colnames(new.data)[acc.col] = paste("Accuracy.Block",a,sep=".")
+    om.col = a + total.bins
+    colnames(new.data)[om.col] = paste("Omission.Block",a,sep=".")
+    for(b in 1:nrow(dataset)){
+      acc.list = as.vector(as.numeric(dataset[b,c(acc.start:(acc.start + binsize - 1))]))
+      om.list = as.vector(as.numeric(dataset[b,c(omission.start:(omission.start + binsize - 1))]))
+      new.data[b,acc.col] = mean(acc.list, na.rm=TRUE)
+      new.data[b,om.col] = mean(om.list, na.rm=TRUE)
+    }
+    acc.start = acc.start + binsize
+    omission.start = omission.start + binsize
+  }
+  final.data = cbind(dataset[ ,1:12],new.data)
+  return(final.data)
+}
+
+Vigilance.Calc.Last.Function = function(dataset,binsize){
+  acc.start = 13
+  omission.start = 65
+  total.bins = 50 / binsize
+  new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
+  bin.num = 1
+  for(a in 1:total.bins){
+    acc.col = a
+    colnames(new.data)[acc.col] = paste("Accuracy.Block",a,sep=".")
+    om.col = a + total.bins
+    colnames(new.data)[om.col] = paste("Omission.Block",a,sep=".")
+    for(b in 1:nrow(dataset)){
+      new.data[b,acc.col] = dataset[b,(acc.start + binsize - 1)]
+      new.data[b,om.col] = dataset[b,(omission.start + binsize - 1)]
+    }
+    acc.start = acc.start + binsize
+    omission.start = omission.start + binsize
+  }
+  final.data = cbind(dataset[ ,1:12],new.data)
+  return(final.data)
+}
 ############################################################################################
 
 ## Collect Initial Dataset ##
@@ -574,22 +681,47 @@ date.data.main = Datefix.Function(date.data.main,9)
 ## Run QC Analysis
 qc.data.pretrain = QC.Pretrain.Function(date.data.pretrain)
 
-qc.idlist.pretrain = as.vector(unique(as.character(qc.data.pretrain$AnimalID)))
-
 qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
 
+## Fix Latency Decimals ##
+qc.data.acq.latfix = LatFix.Decimal.MainAcq.Function(qc.data.acquisition,c(123:226))
+qc.data.main.latfix = LatFix.Decimal.MainAcq.Function(qc.data.main,c(123:226))
+
 ## Split Main Data ##
-qc.data.mainprobe = qc.data.main[ ,c(1:18,123:226)]
-qc.data.mainvigilance = qc.data.main[ ,c(1:12,19:122)]
+qc.data.mainprobe = qc.data.main.latfix[ ,c(1:18,123:226)]
+qc.data.mainvigilance = qc.data.main.latfix[ ,c(1:12,19:122)] ## Need Fix
 ## Run LatFix ##
 
-qc.data.acquisition.lat = LatFix.MainAcq.Function(qc.data.acquisition,3)
-qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
+qc.data.acquisition.lat = LatFix.Acq.Function(qc.data.acq.latfix,3)
+qc.data.mainprobe.lat = LatFix.Probe.Function(qc.data.mainprobe,3)
+
+## Aggregate Probe Data ##
+agg.list = list(qc.data.mainprobe.lat$Database,qc.data.mainprobe.lat$AnimalID,qc.data.mainprobe.lat$TestSite, qc.data.mainprobe.lat$Mouse.Strain, qc.data.mainprobe.lat$Genotype, qc.data.mainprobe.lat$Sex,qc.data.mainprobe.lat$Age.Months, qc.data.mainprobe.lat$Stimulus.Length)
+qc.data.mainprobe.agg = aggregate(qc.data.mainprobe.lat,by=agg.list, FUN=mean, na.rm=TRUE)
+qc.data.mainprobe.agg[ ,9:16] = qc.data.mainprobe.agg[ ,1:8]
+qc.data.mainprobe.agg[ ,1:8] = NULL
+
+
+## Fix Vigilance Import Issues) ##
+qc.data.mainvigilance.fixed = Vigilance.FixRaw.Function(qc.data.mainvigilance)
+
+## Vigilance Calculation - Block Approach ##
+qc.data.vigilance.blocked = Vigilance.Calc.Block.Function(qc.data.mainvigilance.fixed,10)
+qc.data.vigilance.averaged = Vigilance.Calc.Average.Function(qc.data.mainvigilance.fixed,10)
+qc.data.vigilance.last = Vigilance.Calc.Last.Function(qc.data.mainvigilance.fixed,10)
+
+## Remove Non-Completers ##
+
+qc.idlist.final = as.vector(unique(as.character(qc.data.mainprobe.lat$AnimalID)))
+qc.data.acquisition.final = qc.data.acquisition.lat[qc.data.acquisition.lat$AnimalID %in% qc.idlist.final, ]
+qc.data.pretrain.final = qc.data.pretrain[qc.data.pretrain$AnimalID %in% qc.idlist.final, ]
 
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston 5CSRTT Pretrain QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.acquisition.lat, "Weston 5CSRTT Acquisition QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.main.lat, "Weston 5CSRTT Probe QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.pretrain.final, "Weston 5CSRTT Pretrain QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.acquisition.final, "Weston 5CSRTT Acquisition QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.mainprobe.lat, "Weston 5CSRTT Probe QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.mainprobe.agg, "Weston 5CSRTT Probe Aggregated QC Oct 11 2017 Updated.csv")
+

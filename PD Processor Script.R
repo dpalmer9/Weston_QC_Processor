@@ -434,9 +434,9 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
     for(b in 1:nrow(dataset)){
       lat.data = as.vector(as.numeric(dataset[b,lat.raw.cols]))
       lat.iqr = IQR(lat.data,na.rm=TRUE)
-      lat.mean = mean(lat.data, na.rm=TRUE)
-      lat.iqd.upper = lat.mean + (IQD.num * lat.iqr)
-      lat.iqd.lower = lat.mean - (IQD.num * lat.iqr)
+      lat.iqr.quartile = quantile(lat.data,na.rm=TRUE)
+      lat.iqd.upper = lat.iqr.quartile[4] + (IQD.num * lat.iqr)
+      lat.iqd.lower = lat.iqr.quartile[2] - (IQD.num * lat.iqr)
       lat.data = lat.data[lat.data > lat.iqd.lower]
       lat.data = lat.data[lat.data < lat.iqd.upper]
       lat.newmean = mean(lat.data, na.rm=TRUE)
@@ -444,14 +444,15 @@ LatFix.MainAcq.Function = function(dataset,IQD.num){
       dataset[b,mean.col] = lat.newmean
       dataset[b,std.col] = lat.newsd
     }
-    mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
-    mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
-    mean.mean = mean(mean.avg.data, na.rm=TRUE)
-    mean.iqd.upper = mean.mean + (IQD.num * mean.iqr)
-    mean.iqd.lower = mean.mean - (IQD.num & mean.iqr)
-    mean.avg.data[mean.avg.data < mean.iqd.lower] = NA
-    mean.avg.data[mean.avg.data > mean.iqd.upper] = NA
-    dataset[ ,mean.col] = mean.avg.data
+    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
+    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+    #mean.iqd.multiplied = mean.iqr * IQD.num
+    #mean.iqr.quartile = quartile(mean.avg.data,na.rm=TRUE)
+    #mean.iqr.quartile25 = as.numeric(mean.iqr.quartile[2])
+    #mean.iqr.quartile75 = as.numeric(mean.iqr.quartile[4])
+    #mean.avg.data[mean.avg.data < (mean.iqr.quartile25 * mean.iqd.multiplied)] = NA
+    #mean.avg.data[mean.avg.data > (mean.iqr.quartile75 * mean.iqd.multiplied)] = NA
+    #dataset[ ,mean.col] = mean.avg.data
   }
   return(dataset)
 }
@@ -487,8 +488,22 @@ qc.data.main = QC.Main.Function(date.data.main)
 qc.data.acquisition.lat = LatFix.MainAcq.Function(qc.data.acquisition,3)
 qc.data.main.lat = LatFix.MainAcq.Function(qc.data.main,3)
 
+## Remove Non-Completers ##
+
+qc.idlist.final = as.vector(unique(as.character(qc.data.main.lat$AnimalID)))
+qc.data.acquisition.final = qc.data.acquisition.lat[qc.data.acquisition.lat$AnimalID %in% qc.idlist.final, ]
+qc.data.pretrain.final = qc.data.pretrain[qc.data.pretrain$AnimalID %in% qc.idlist.final, ]
+
+## Session Only Acq Data #
+
+qc.data.acq.sessions = qc.data.acquisition.final[ ,1:10]
+qc.data.acq.sessions[ ,10] = 1
+qc.data.acq.sessions[ ,9] = NULL
+agg.list = list(qc.data.acq.sessions$Mouse.Strain,qc.data.acq.sessions$Genotype,qc.data.acq.sessions$Sex,qc.data.acq.sessions$Age.Months,qc.data.acq.sessions$Task)
+qc.data.acq.agg = aggregate(Day ~ Database + AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Task, FUN=sum, na.rm=TRUE, data=qc.data.acq.sessions)
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain, "Weston PD Pretrain QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.acquisition.lat, "Weston PD Acquisition QC Oct 3 2017 NEW LATENCY.csv")
-write.csv(qc.data.main.lat, "Weston PD Basline Reversal QC Oct 3 2017 NEW LATENCY.csv")
+write.csv(qc.data.pretrain.final, "Weston PD Pretrain QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.acquisition.final, "Weston PD Acquisition QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.acq.agg, "Weston PD Acquisition Aggregated Oct 11 2017 Updated.csv")
+write.csv(qc.data.main.lat, "Weston PD Basline Reversal QC Oct 11 2017 Updated.csv")
