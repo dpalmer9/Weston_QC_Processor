@@ -707,11 +707,28 @@ qc.data.mainprobe.agg[ ,1:8] = NULL
 ## Fix Vigilance Import Issues) ##
 qc.data.mainvigilance.fixed = Vigilance.FixRaw.Function(qc.data.mainvigilance)
 
-## Vigilance Calculation - Block Approach ##
+## Vigilance Calculation - Three Methods ##
 qc.data.vigilance.blocked = Vigilance.Calc.Block.Function(qc.data.mainvigilance.fixed,10)
 qc.data.vigilance.averaged = Vigilance.Calc.Average.Function(qc.data.mainvigilance.fixed,10)
 qc.data.vigilance.last = Vigilance.Calc.Last.Function(qc.data.mainvigilance.fixed,10)
 
+
+## Aggregate Final Data ## 
+agg.list.blocked = list(qc.data.vigilance.blocked$Database,qc.data.vigilance.blocked$AnimalID,qc.data.vigilance.blocked$TestSite, qc.data.vigilance.blocked$Mouse.Strain, qc.data.vigilance.blocked$Genotype, qc.data.vigilance.blocked$Sex,qc.data.vigilance.blocked$Age.Months, qc.data.vigilance.blocked$Stimulus.Length)
+agg.list.averaged = list(qc.data.vigilance.averaged$Database,qc.data.vigilance.averaged$AnimalID,qc.data.vigilance.averaged$TestSite, qc.data.vigilance.averaged$Mouse.Strain, qc.data.vigilance.averaged$Genotype, qc.data.vigilance.averaged$Sex,qc.data.vigilance.averaged$Age.Months, qc.data.vigilance.averaged$Stimulus.Length)
+agg.list.last = list(qc.data.vigilance.last$Database,qc.data.vigilance.last$AnimalID,qc.data.vigilance.last$TestSite, qc.data.vigilance.last$Mouse.Strain, qc.data.vigilance.last$Genotype, qc.data.vigilance.last$Sex,qc.data.vigilance.last$Age.Months, qc.data.vigilance.last$Stimulus.Length)
+
+qc.data.vigilance.blocked.agg = aggregate(qc.data.vigilance.blocked,by=agg.list.blocked, FUN=mean, na.rm=TRUE)
+qc.data.vigilance.blocked.agg[ ,9:16] = qc.data.vigilance.blocked.agg[ ,1:8]
+qc.data.vigilance.blocked.agg[ ,1:8] = NULL
+
+qc.data.vigilance.averaged.agg = aggregate(qc.data.vigilance.averaged,by=agg.list.averaged, FUN=mean, na.rm=TRUE)
+qc.data.vigilance.averaged.agg[ ,9:16] = qc.data.vigilance.averaged.agg[ ,1:8]
+qc.data.vigilance.averaged.agg[ ,1:8] = NULL
+
+qc.data.vigilance.last.agg = aggregate(qc.data.vigilance.last,by=agg.list.last, FUN=mean, na.rm=TRUE)
+qc.data.vigilance.last.agg[ ,9:16] = qc.data.vigilance.last.agg[ ,1:8]
+qc.data.vigilance.last.agg[ ,1:8] = NULL
 ## Remove Non-Completers ##
 
 qc.idlist.final = as.vector(unique(as.character(qc.data.mainprobe.lat$AnimalID)))
@@ -725,3 +742,6 @@ write.csv(qc.data.acquisition.final, "Weston 5CSRTT Acquisition QC Oct 11 2017 U
 write.csv(qc.data.mainprobe.lat, "Weston 5CSRTT Probe QC Oct 11 2017 Updated.csv")
 write.csv(qc.data.mainprobe.agg, "Weston 5CSRTT Probe Aggregated QC Oct 11 2017 Updated.csv")
 
+write.csv(qc.data.vigilance.averaged.agg, "Weston 5CSRTT Probe Aggregated Vigilance AVERAGED METHOD QC Oct 12 2017 Updated.csv")
+write.csv(qc.data.vigilance.last.agg, "Weston 5CSRTT Probe Aggregated Vigilance LAST METHOD QC Oct 12 2017 Updated.csv")
+write.csv(qc.data.vigilance.blocked.agg, "Weston 5CSRTT Probe Aggregated Vigilance BLOCK BY BLOCK METHOD QC Oct 12 2017 Updated.csv")
