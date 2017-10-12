@@ -471,7 +471,7 @@ LatFix.Decimal.MainAcq.Function = function(dataset,fix.cols){
 }
 
 # Fix Latency Calc #
-LatFix.Acq.Function = function(dataset,IQD.num){
+LatFix.Acq.Function = function(dataset,IQD.num, good.names=good.list){
   mean.colnums = c(173,225)
   for(a in 1:length(mean.colnums)){
     lat.raw.cols = c((mean.colnums[a] - 50):(mean.colnums[a] - 1))
@@ -490,20 +490,40 @@ LatFix.Acq.Function = function(dataset,IQD.num){
       dataset[b,mean.col] = lat.newmean
       dataset[b,std.col] = lat.newsd
     }
-    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
-    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
-    #mean.iqd.multiplied = mean.iqr * IQD.num
-    #mean.iqr.quartile = quartile(mean.avg.data,na.rm=TRUE)
-    #mean.iqr.quartile25 = as.numeric(mean.iqr.quartile[2])
-    #mean.iqr.quartile75 = as.numeric(mean.iqr.quartile[4])
-    #mean.avg.data[mean.avg.data < (mean.iqr.quartile25 * mean.iqd.multiplied)] = NA
-    #mean.avg.data[mean.avg.data > (mean.iqr.quartile75 * mean.iqd.multiplied)] = NA
-    #dataset[ ,mean.col] = mean.avg.data
+    new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+    colnames(new.data) = colnames(dataset)
+    for(b in 1:2){
+      curr.site = good.names[(b)]
+      for(c in 1:6){
+        curr.geno = good.names[(c + 7)]
+        for(d in 1:2){
+          curr.sex = good.names[(d + 13)]
+          for(e in 1:3){
+            curr.age = good.names[(e + 15)]
+            for(f in 1:4){
+              curr.probe = good.names[(f + 26)]
+              section.data = dataset[which((dataset[ ,3] == curr.site) & (dataset[ ,5] == curr.geno) & (dataset[ ,6] == curr.sex) & (dataset[ ,7] == curr.age) & (dataset[ ,8] == curr.probe)), ]
+              for(a in 1:length(mean.colnums)){
+                mean.col = mean.colnums[a]
+                mean.avg.data = as.vector(as.numeric(section.data[ ,mean.col]))
+                mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+                mean.iqd.multiplied = mean.iqr * IQD.num
+                mean.iqr.quartile = quantile(mean.avg.data,na.rm=TRUE)
+                mean.avg.data[mean.avg.data < (mean.iqr.quartile[2] - mean.iqd.multiplied)] = NA
+                mean.avg.data[mean.avg.data > (mean.iqr.quartile[4] + mean.iqd.multiplied)] = NA
+                section.data[ ,mean.col] = mean.avg.data
+              }
+              new.data = rbind(new.data,section.data)
+            }
+          }
+        }
+      }
+    }
   }
   return(dataset)
 }
 
-LatFix.Probe.Function = function(dataset,IQD.num){
+LatFix.Probe.Function = function(dataset,IQD.num,good.names=good.list){
   mean.colnums = c(69,121)
   for(a in 1:length(mean.colnums)){
     lat.raw.cols = c((mean.colnums[a] - 50):(mean.colnums[a] - 1))
@@ -522,18 +542,39 @@ LatFix.Probe.Function = function(dataset,IQD.num){
       dataset[b,mean.col] = lat.newmean
       dataset[b,std.col] = lat.newsd
     }
-    #mean.avg.data = as.vector(as.numeric(dataset[ ,mean.col]))
-    #mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
-    #mean.iqd.multiplied = mean.iqr * IQD.num
-    #mean.iqr.quartile = quartile(mean.avg.data,na.rm=TRUE)
-    #mean.iqr.quartile25 = as.numeric(mean.iqr.quartile[2])
-    #mean.iqr.quartile75 = as.numeric(mean.iqr.quartile[4])
-    #mean.avg.data[mean.avg.data < (mean.iqr.quartile25 * mean.iqd.multiplied)] = NA
-    #mean.avg.data[mean.avg.data > (mean.iqr.quartile75 * mean.iqd.multiplied)] = NA
-    #dataset[ ,mean.col] = mean.avg.data
+    new.data = as.data.frame(matrix(nrow=0,ncol=ncol(dataset)))
+    colnames(new.data) = colnames(dataset)
+    for(b in 1:2){
+      curr.site = good.names[(b)]
+      for(c in 1:6){
+        curr.geno = good.names[(c + 7)]
+        for(d in 1:2){
+          curr.sex = good.names[(d + 13)]
+          for(e in 1:3){
+            curr.age = good.names[(e + 15)]
+            for(f in 1:4){
+              curr.probe = good.names[(f + 26)]
+              section.data = dataset[which((dataset[ ,3] == curr.site) & (dataset[ ,5] == curr.geno) & (dataset[ ,6] == curr.sex) & (dataset[ ,7] == curr.age) & (dataset[ ,8] == curr.probe)), ]
+              for(a in 1:length(mean.colnums)){
+                mean.col = mean.colnums[a]
+                mean.avg.data = as.vector(as.numeric(section.data[ ,mean.col]))
+                mean.iqr = IQR(mean.avg.data, na.rm=TRUE)
+                mean.iqd.multiplied = mean.iqr * IQD.num
+                mean.iqr.quartile = quantile(mean.avg.data,na.rm=TRUE)
+                mean.avg.data[mean.avg.data < (mean.iqr.quartile[2] - mean.iqd.multiplied)] = NA
+                mean.avg.data[mean.avg.data > (mean.iqr.quartile[4] + mean.iqd.multiplied)] = NA
+                section.data[ ,mean.col] = mean.avg.data
+              }
+              new.data = rbind(new.data,section.data)
+            }
+          }
+        }
+      }
+    }
   }
-  return(dataset)
+  return(new.data)
 }
+
 Vigilance.FixRaw.Function = function(dataset){
   acc.range = 13:62
   omission.range = 65:114
@@ -691,7 +732,7 @@ qc.data.main.latfix = LatFix.Decimal.MainAcq.Function(qc.data.main,c(123:226))
 
 ## Split Main Data ##
 qc.data.mainprobe = qc.data.main.latfix[ ,c(1:18,123:226)]
-qc.data.mainvigilance = qc.data.main.latfix[ ,c(1:12,19:122)] ## Need Fix
+qc.data.mainvigilance = qc.data.main.latfix[ ,c(1:12,19:122)]
 ## Run LatFix ##
 
 qc.data.acquisition.lat = LatFix.Acq.Function(qc.data.acq.latfix,3)
@@ -735,12 +776,19 @@ qc.idlist.final = as.vector(unique(as.character(qc.data.mainprobe.lat$AnimalID))
 qc.data.acquisition.final = qc.data.acquisition.lat[qc.data.acquisition.lat$AnimalID %in% qc.idlist.final, ]
 qc.data.pretrain.final = qc.data.pretrain[qc.data.pretrain$AnimalID %in% qc.idlist.final, ]
 
+## Sum & Aggregate Acquisition Sessions ##
+qc.data.acq.summed = qc.data.acquisition.final[ ,c(1:8,10)]
+qc.data.acq.summed[ ,9] = 1
+qc.data.acq.agg = aggregate(Day ~ AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Stimulus.Length, FUN=sum, na.rm=TRUE, data=qc.data.acq.summed)
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain.final, "Weston 5CSRTT Pretrain QC Oct 11 2017 Updated.csv")
-write.csv(qc.data.acquisition.final, "Weston 5CSRTT Acquisition QC Oct 11 2017 Updated.csv")
-write.csv(qc.data.mainprobe.lat, "Weston 5CSRTT Probe QC Oct 11 2017 Updated.csv")
-write.csv(qc.data.mainprobe.agg, "Weston 5CSRTT Probe Aggregated QC Oct 11 2017 Updated.csv")
+write.csv(qc.data.pretrain.final, "Weston 5CSRTT Pretrain QC Oct 12 2017 Updated.csv")
+
+write.csv(qc.data.acquisition.final, "Weston 5CSRTT Acquisition QC Oct 12 2017 Updated.csv")
+write.csv(qc.data.acq.agg, "Weston 5CSRTT Acquisition Aggregated QC Oct 12 2017 Updated.csv")
+
+write.csv(qc.data.mainprobe.lat, "Weston 5CSRTT Probe QC Oct 12 2017 Updated.csv")
+write.csv(qc.data.mainprobe.agg, "Weston 5CSRTT Probe Aggregated QC Oct 12 2017 Updated.csv")
 
 write.csv(qc.data.vigilance.averaged.agg, "Weston 5CSRTT Probe Aggregated Vigilance AVERAGED METHOD QC Oct 12 2017 Updated.csv")
 write.csv(qc.data.vigilance.last.agg, "Weston 5CSRTT Probe Aggregated Vigilance LAST METHOD QC Oct 12 2017 Updated.csv")
