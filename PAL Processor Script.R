@@ -48,8 +48,8 @@ bad.list$bad.10m = c(10,'10') #18
 
 bad.list$bad.hab1 = c('Hab1') #19
 bad.list$bad.hab2 = c('Hab2') #20
-bad.list$bad.IT = c('MousePALInitialTouchTrainingv3') #21
-bad.list$bad.MT = c('MousePALMustTouchTrainingv3') #22
+bad.list$bad.IT = c('MousePALInitialTouchTrainingv3', 'MousePALInitialTouchTrainingv3-RETRAIN') #21
+bad.list$bad.MT = c('MousePALMustTouchTrainingv3', 'MousePALMustTouchTrainingv3-RETRAIN') #22
 bad.list$bad.MI = c('MousePALMustInitiateTrainingv3') #23
 bad.list$bad.punish = c('MousePALPunishIncorrectTrainingv3') #24
 
@@ -534,8 +534,6 @@ date.data.main = Datefix.Function(name.data.main,9)
 ## Run QC Analysis
 qc.data.pretrain = QC.Pretrain.Function(date.data.pretrain)
 
-qc.idlist.pretrain = as.vector(unique(as.character(qc.data.pretrain$AnimalID)))
-
 qc.data.acquisition = QC.Acq.Function(date.data.acquisition)
 
 qc.data.main = QC.Main.Function(date.data.main)
@@ -558,13 +556,19 @@ qc.data.acq.sessions[ ,9] = NULL
 qc.data.acq.agg = aggregate(Day ~ Database + AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Task, FUN=sum, na.rm=TRUE, data=qc.data.acq.sessions)
 
 
+## Aggregated Pretraining Data ##
+qc.data.pretrain.final = qc.data.pretrain.final[ ,c(1:9)]
+qc.data.pretrain.final[ ,9] = 1
+qc.data.pretrain.final[ ,8] = NULL
+qc.data.pretrain.agg = aggregate(Day ~ AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Task, FUN=sum, na.rm=TRUE, data=qc.data.pretrain.final)
+
 ## Aggregate Main File ##
 
 qc.data.main.agg = Aggregate.Function(qc.data.main.lat)
 
 
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain.final, "Weston PAL Pretraining Oct 12 2017 Updated.csv")
+write.csv(qc.data.pretrain.agg, "Weston PAL Pretraining Oct 12 2017 Updated.csv")
 write.csv(qc.data.acquisition.final, "Weston PAL Acquisition Oct 12 2017 Updated.csv")
 write.csv(qc.data.acq.agg, "Weston PAL Acquisition Aggregated Oct 12 2017 Updated.csv")
 write.csv(qc.data.main.lat, "Weston PAL Main Task Oct 12 2017 Updated.csv")

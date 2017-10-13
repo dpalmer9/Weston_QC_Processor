@@ -576,31 +576,49 @@ LatFix.Probe.Function = function(dataset,IQD.num,good.names=good.list){
 }
 
 Vigilance.FixRaw.Function = function(dataset){
-  acc.range = 13:62
-  omission.range = 65:114
+  total.tri.col = 14
+  acc.range = 15:64
+  omission.range = 67:116
   for(a in 1:nrow(dataset)){
     acc.vec = as.vector(as.numeric(dataset[a,acc.range]))
     acc.vec = acc.vec[!is.na(acc.vec)]
     omission.vec = as.vector(as.numeric(dataset[a,omission.range]))
     omission.vec = omission.vec[!is.na(omission.vec)]
+    total.trials = as.numeric(dataset[a,total.tri.col])
     acc.len = length(acc.vec)
     omission.len = length(omission.vec)
-    if(isTRUE(acc.len < 50)){
-      acc.discrepancy = 50 - acc.len
+    if(isTRUE(acc.len < total.trials)){
+      acc.discrepancy = total.trials - acc.len
       acc.zerofill = c()
       for(b in 1:acc.discrepancy){
         acc.zerofill[b] = 0
       }
       acc.vec = c(acc.zerofill,acc.vec)
+      if(length(acc.vec) < 50){
+        na.discrepancy = 50 - length(acc.vec)
+        na.fill = c()
+        for(b in 1:na.discrepancy){
+          na.fill[b] = NA
+        }
+        acc.vec = c(acc.vec,na.fill)
+      }
       dataset[a,acc.range] = acc.vec
     }
-    if(isTRUE(omission.len < 50)){
-      omission.discrepancy = 50 - omission.len
+    if(isTRUE(omission.len < total.trials)){
+      omission.discrepancy = total.trials - omission.len
       omission.zerofill = c()
       for(b in 1:omission.discrepancy){
         omission.zerofill[b] = 0
       }
       omission.vec = c(omission.zerofill,omission.vec)
+      if(length(omission.vec) < 50){
+        na.discrepancy = 50 - length(omission.vec)
+        na.fill = c()
+        for(b in 1:na.discrepancy){
+          na.fill[b] = NA
+        }
+        omission.vec = c(omission.vec,na.fill)
+      }
       dataset[a,omission.range] = omission.vec
     }
   }
@@ -608,8 +626,8 @@ Vigilance.FixRaw.Function = function(dataset){
 }
 
 Vigilance.Calc.Block.Function = function(dataset,binsize){
-  acc.start = 13
-  omission.start = 65
+  acc.start = 15
+  omission.start = 67
   total.bins = 50 / binsize
   new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
   bin.num = 1
@@ -623,6 +641,7 @@ Vigilance.Calc.Block.Function = function(dataset,binsize){
       om.list = as.vector(dataset[b,c(omission.start:(omission.start + binsize - 1))])
       acc.bin = 0
       om.bin = 0
+      na.count = 0
       if(a == 1){
         start.acc = 0
         start.om = 0
@@ -635,6 +654,11 @@ Vigilance.Calc.Block.Function = function(dataset,binsize){
       for(c in 1:(binsize)){
         curr.acc = as.numeric(acc.list[c])
         curr.om = as.numeric(om.list[c])
+        if(isTRUE(is.na(curr.acc) & is.na(curr.om))){
+          acc.bin = acc.bin
+          om.bin = om.bin
+          na.count = na.count + 1
+        }
         if(isTRUE(curr.acc > start.acc)){
           acc.bin = acc.bin + 1
         }else if(isTRUE(curr.om > start.om)){
@@ -645,19 +669,23 @@ Vigilance.Calc.Block.Function = function(dataset,binsize){
       }
       acc.bin = (acc.bin / (binsize - om.bin)) * 100
       om.bin = (om.bin / binsize) * 100
+      if(na.count == binsize){
+        acc.bin = NA
+        om.bin = NA
+      }
       new.data[b,acc.col] = acc.bin
       new.data[b,om.col] = om.bin
     }
     acc.start = (acc.start + binsize)
     omission.start = omission.start + binsize
   }
-  final.data = cbind(dataset[ ,1:12],new.data)
+  final.data = cbind(dataset[ ,c(1:10,13:14)],new.data)
   return(final.data)
 }
 
 Vigilance.Calc.Average.Function = function(dataset,binsize){
-  acc.start = 13
-  omission.start = 65
+  acc.start = 15
+  omission.start = 67
   total.bins = 50 / binsize
   new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
   bin.num = 1
@@ -675,13 +703,13 @@ Vigilance.Calc.Average.Function = function(dataset,binsize){
     acc.start = acc.start + binsize
     omission.start = omission.start + binsize
   }
-  final.data = cbind(dataset[ ,1:12],new.data)
+  final.data = cbind(dataset[ ,c(1:10,13:14)],new.data)
   return(final.data)
 }
 
 Vigilance.Calc.Last.Function = function(dataset,binsize){
-  acc.start = 13
-  omission.start = 65
+  acc.start = 15
+  omission.start = 67
   total.bins = 50 / binsize
   new.data = as.data.frame(matrix(nrow=nrow(dataset),ncol=(total.bins * 2)))
   bin.num = 1
@@ -691,13 +719,31 @@ Vigilance.Calc.Last.Function = function(dataset,binsize){
     om.col = a + total.bins
     colnames(new.data)[om.col] = paste("Omission.Block",a,sep=".")
     for(b in 1:nrow(dataset)){
-      new.data[b,acc.col] = dataset[b,(acc.start + binsize - 1)]
-      new.data[b,om.col] = dataset[b,(omission.start + binsize - 1)]
+      last.acc = as.numeric(dataset[b,(acc.start + binsize - 1)])
+      last.om = as.numeric(dataset[b,(omission.start + binsize - 1)])
+      if(isTRUE(is.na(last.acc))){
+        for(c in (binsize - 1):1){
+          last.acc = as.numeric(dataset[b,(acc.start + c - 1)])
+          if(is.na(last.acc) == FALSE){
+            break
+          }
+        }
+      }
+      if(isTRUE(is.na(last.om))){
+        for(c in (binsize - 1):1){
+          last.om = as.numeric(dataset[b,(omission.start + c - 1)])
+          if(is.na(last.om) == FALSE){
+            break
+          }
+        }
+      }
+      new.data[b,acc.col] = last.acc
+      new.data[b,om.col] = last.om
     }
     acc.start = acc.start + binsize
     omission.start = omission.start + binsize
   }
-  final.data = cbind(dataset[ ,1:12],new.data)
+  final.data = cbind(dataset[ ,c(1:10,13:14)],new.data)
   return(final.data)
 }
 ############################################################################################
@@ -732,7 +778,7 @@ qc.data.main.latfix = LatFix.Decimal.MainAcq.Function(qc.data.main,c(123:226))
 
 ## Split Main Data ##
 qc.data.mainprobe = qc.data.main.latfix[ ,c(1:18,123:226)]
-qc.data.mainvigilance = qc.data.main.latfix[ ,c(1:12,19:122)]
+qc.data.mainvigilance = qc.data.main.latfix[ ,c(1:14,19:122)]
 ## Run LatFix ##
 
 qc.data.acquisition.lat = LatFix.Acq.Function(qc.data.acq.latfix,3)
@@ -781,8 +827,15 @@ qc.data.acq.summed = qc.data.acquisition.final[ ,c(1:8,10)]
 qc.data.acq.summed[ ,9] = 1
 qc.data.acq.agg = aggregate(Day ~ AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Stimulus.Length, FUN=sum, na.rm=TRUE, data=qc.data.acq.summed)
 
+## Aggregated Pretraining Data ##
+qc.data.pretrain.final = qc.data.pretrain.final[ ,c(2:10)]
+qc.data.pretrain.final[ ,9] = 1
+qc.data.pretrain.final[ ,8] = NULL
+qc.data.pretrain.agg = aggregate(Day ~ AnimalID + TestSite + Mouse.Strain + Genotype + Sex + Age.Months + Task, FUN=sum, na.rm=TRUE, data=qc.data.pretrain.final)
+
+
 ## Save Raw Data Files ##
-write.csv(qc.data.pretrain.final, "Weston 5CSRTT Pretrain QC Oct 12 2017 Updated.csv")
+write.csv(qc.data.pretrain.agg, "Weston 5CSRTT Pretrain QC Oct 12 2017 Updated.csv")
 
 write.csv(qc.data.acquisition.final, "Weston 5CSRTT Acquisition QC Oct 12 2017 Updated.csv")
 write.csv(qc.data.acq.agg, "Weston 5CSRTT Acquisition Aggregated QC Oct 12 2017 Updated.csv")
